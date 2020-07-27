@@ -129,7 +129,7 @@ exports[`<Plans /> <Plan /> 1`] = `
 
 <div>
   <div
-    class="c0"
+    class="c0 plan"
   >
     <img
       alt=""
@@ -731,7 +731,7 @@ exports[`<Plans /> should render 3 Plans 1`] = `
                   style="width: 0px; padding: 0px 0px 0px 0px;"
                 >
                   <div
-                    class="c6"
+                    class="c6 plan"
                   >
                     <img
                       alt=""
@@ -840,7 +840,7 @@ exports[`<Plans /> should render 3 Plans 1`] = `
                   style="width: 0px; padding: 0px 0px 0px 0px;"
                 >
                   <div
-                    class="c9"
+                    class="c9 plan"
                   >
                     <img
                       alt=""
@@ -949,7 +949,7 @@ exports[`<Plans /> should render 3 Plans 1`] = `
                   style="width: 0px; padding: 0px 0px 0px 0px;"
                 >
                   <div
-                    class="c6"
+                    class="c6 plan"
                   >
                     <img
                       alt=""

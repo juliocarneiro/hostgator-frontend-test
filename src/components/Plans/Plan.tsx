@@ -32,7 +32,7 @@ const Plan = ({ productsData, selectedTime }: PlanType) => {
   const discountPercent = 40
 
   return (
-    <S.Plan midPlan={name === 'Plano M'}>
+    <S.Plan midPlan={name === 'Plano M'} className="plan">
       {name === 'Plano P' ? <img src="/img/1.svg" alt="" /> : null}
       {name === 'Plano M' ? <img src="/img/2.svg" alt="" /> : null}
       {name === 'Plano Turbo' ? <img src="/img/3.svg" alt="" /> : null}
