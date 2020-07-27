@@ -11,16 +11,25 @@ type Product = {
     }
   ]
 }
+type Products = {
+  name: string
+  id: string
+  cycle: {
+    annually: { priceOrder: number; months: number }
+    triennially: { priceOrder: number; months: number }
+    monthly: { priceOrder: number; months: number }
+  }
+}
 
 export const getProducts = async () => {
   const responseData = await fetch(
     `https://6dd1804f-a914-4c99-a1ed-58adca2bca74.mock.pstmn.io/prices`
   )
   const data = await responseData.json()
-  const productsData = data.shared.products
+  const productsData = data.shared.products as Products[]
 
   const products = Object.values(productsData).map(
-    (product: any): Product => ({
+    (product): Product => ({
       id: product.id,
       name: product.name,
       cycle: [product.cycle]
