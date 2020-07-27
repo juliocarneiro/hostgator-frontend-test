@@ -54,7 +54,11 @@ const PlanBody = ({
           Contrate Agora
         </a>
         <div>
-          <b>1 ano de Domínio Grátis.</b>
+          <b>
+            1 ano de Domínio Grátis.{' '}
+            <img src="/img/i.svg" alt="1 ano de Domínio Grátis." />
+          </b>
+
           <span>
             economize R$ {currency.format(economyPrice)}
             <strong>{percent}% off</strong>

@@ -79,10 +79,6 @@ const GlobalStyles = createGlobalStyle`
         position:absolute;
         z-index:9999;
         border:0px;
-        background:#4480c5;
-        color:white;
-        font-weight:bold;
-        border-radius:50%;
         top:35%;
         cursor:pointer;
         &:disabled{
@@ -93,10 +89,14 @@ const GlobalStyles = createGlobalStyle`
     }
       }
       .button-prev{
-        left:20px;
+        background:#4480c5;
+        left:15px;
+        background:url('/img/button-prev.svg')
       }
       .button-next{
-        right:20px;
+        background:#4480c5;
+        right:15px;
+        background:url('/img/button-next.svg')
       }
       .rec-slider-container{
         .rec-slider{

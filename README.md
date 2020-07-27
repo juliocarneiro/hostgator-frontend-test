@@ -61,3 +61,4 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 - Utilizei um boilerplate que eu fiz em Typscript + NextJS + Jest focando em, performance e PWA.
 - Realizei testes unitarios com o jest e testing-library, queria ter usado o cypress como e2e mas nao tive tempo.
 - Tambem fiz um pre test e lint com o husky e um deploy automatico com o git + netlyfy
+- Não utilizei as imagens do radio button, fiz em css.

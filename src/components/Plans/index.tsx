@@ -35,12 +35,9 @@ const Plans = ({ selectedTime, productsData }: Props) => {
   ]
 
   function buttonArrows({ type, onClick, isEdge }: Arrows) {
-    const pointer: string = type === 'PREV' ? '<' : '>'
     const classes: string = type === 'PREV' ? 'button-prev' : 'button-next'
     return (
-      <button onClick={onClick} className={classes} disabled={isEdge}>
-        {pointer}
-      </button>
+      <button onClick={onClick} className={classes} disabled={isEdge}></button>
     )
   }
 

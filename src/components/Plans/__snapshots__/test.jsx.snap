@@ -178,6 +178,11 @@ exports[`<Plans /> <Plan /> 1`] = `
         <div>
           <b>
             1 ano de Domínio Grátis.
+             
+            <img
+              alt="1 ano de Domínio Grátis."
+              src="/img/i.svg"
+            />
           </b>
           <span>
             economize R$ 
@@ -353,6 +358,11 @@ NodeList [
       <div>
         <b>
           1 ano de Domínio Grátis.
+           
+          <img
+            alt="1 ano de Domínio Grátis."
+            src="/img/i.svg"
+          />
         </b>
         <span>
           economize R$ 
@@ -711,9 +721,7 @@ exports[`<Plans /> should render 3 Plans 1`] = `
         <button
           class="button-prev"
           disabled=""
-        >
-          &lt;
-        </button>
+        />
         <div
           class="c3 rec rec-slider-container"
         >
@@ -780,6 +788,11 @@ exports[`<Plans /> should render 3 Plans 1`] = `
                         <div>
                           <b>
                             1 ano de Domínio Grátis.
+                             
+                            <img
+                              alt="1 ano de Domínio Grátis."
+                              src="/img/i.svg"
+                            />
                           </b>
                           <span>
                             economize R$ 
@@ -889,6 +902,11 @@ exports[`<Plans /> should render 3 Plans 1`] = `
                         <div>
                           <b>
                             1 ano de Domínio Grátis.
+                             
+                            <img
+                              alt="1 ano de Domínio Grátis."
+                              src="/img/i.svg"
+                            />
                           </b>
                           <span>
                             economize R$ 
@@ -998,6 +1016,11 @@ exports[`<Plans /> should render 3 Plans 1`] = `
                         <div>
                           <b>
                             1 ano de Domínio Grátis.
+                             
+                            <img
+                              alt="1 ano de Domínio Grátis."
+                              src="/img/i.svg"
+                            />
                           </b>
                           <span>
                             economize R$ 
@@ -1051,9 +1074,7 @@ exports[`<Plans /> should render 3 Plans 1`] = `
         </div>
         <button
           class="button-next"
-        >
-          &gt;
-        </button>
+        />
       </div>
     </div>
   </div>

@@ -28,6 +28,7 @@ exports[`<Filter /> Three input elements exist 1`] = `
 }
 
 .c1 ul li {
+  position: relative;
   padding: 10px 20px;
   border-radius: 21px;
   -webkit-box-pack: center;
@@ -49,12 +50,27 @@ exports[`<Filter /> Three input elements exist 1`] = `
 }
 
 .c1 ul li label {
-  padding-left: 10px;
+  padding-left: 20px;
   cursor: pointer;
 }
 
 .c1 ul li input {
   cursor: pointer;
+  border: 0;
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.c1 ul li .radiobtn {
+  position: absolute;
+  top: 10px;
+  left: 13px;
+  height: 18px;
+  width: 18px;
+  background-color: white;
+  border-radius: 50%;
+  border: 2px solid #9eb8dc;
 }
 
 .c1 ul li.selected {
@@ -63,9 +79,31 @@ exports[`<Filter /> Three input elements exist 1`] = `
   font-weight: bold;
 }
 
+.c1 ul li.selected .radiobtn {
+  border: 2px solid white;
+  background: #4480c5;
+}
+
+.c1 ul li.selected .radiobtn:after {
+  content: '';
+  position: absolute;
+  top: 3px;
+  left: 3.5px;
+  height: 8px;
+  width: 8px;
+  background-color: white;
+  border-radius: 50%;
+}
+
 @media (max-width:768px) {
   .c1 ul li label {
     font-size: 12px;
+  }
+}
+
+@media (max-width:768px) {
+  .c1 ul li .radiobtn {
+    top: 8px;
   }
 }
 
@@ -92,6 +130,9 @@ exports[`<Filter /> Three input elements exist 1`] = `
             type="radio"
             value="three_years"
           />
+          <span
+            class="radiobtn"
+          />
           <label
             for="three_years"
           >
@@ -108,6 +149,9 @@ exports[`<Filter /> Three input elements exist 1`] = `
             type="radio"
             value="year"
           />
+          <span
+            class="radiobtn"
+          />
           <label
             for="year"
           >
@@ -122,6 +166,9 @@ exports[`<Filter /> Three input elements exist 1`] = `
             id="month"
             type="radio"
             value="month"
+          />
+          <span
+            class="radiobtn"
           />
           <label
             for="month"
@@ -163,6 +210,7 @@ exports[`<Filter /> should choice text exist 1`] = `
 }
 
 .c1 ul li {
+  position: relative;
   padding: 10px 20px;
   border-radius: 21px;
   -webkit-box-pack: center;
@@ -184,12 +232,27 @@ exports[`<Filter /> should choice text exist 1`] = `
 }
 
 .c1 ul li label {
-  padding-left: 10px;
+  padding-left: 20px;
   cursor: pointer;
 }
 
 .c1 ul li input {
   cursor: pointer;
+  border: 0;
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.c1 ul li .radiobtn {
+  position: absolute;
+  top: 10px;
+  left: 13px;
+  height: 18px;
+  width: 18px;
+  background-color: white;
+  border-radius: 50%;
+  border: 2px solid #9eb8dc;
 }
 
 .c1 ul li.selected {
@@ -198,9 +261,31 @@ exports[`<Filter /> should choice text exist 1`] = `
   font-weight: bold;
 }
 
+.c1 ul li.selected .radiobtn {
+  border: 2px solid white;
+  background: #4480c5;
+}
+
+.c1 ul li.selected .radiobtn:after {
+  content: '';
+  position: absolute;
+  top: 3px;
+  left: 3.5px;
+  height: 8px;
+  width: 8px;
+  background-color: white;
+  border-radius: 50%;
+}
+
 @media (max-width:768px) {
   .c1 ul li label {
     font-size: 12px;
+  }
+}
+
+@media (max-width:768px) {
+  .c1 ul li .radiobtn {
+    top: 8px;
   }
 }
 
@@ -227,6 +312,9 @@ exports[`<Filter /> should choice text exist 1`] = `
             type="radio"
             value="three_years"
           />
+          <span
+            class="radiobtn"
+          />
           <label
             for="three_years"
           >
@@ -243,6 +331,9 @@ exports[`<Filter /> should choice text exist 1`] = `
             type="radio"
             value="year"
           />
+          <span
+            class="radiobtn"
+          />
           <label
             for="year"
           >
@@ -257,6 +348,9 @@ exports[`<Filter /> should choice text exist 1`] = `
             id="month"
             type="radio"
             value="month"
+          />
+          <span
+            class="radiobtn"
           />
           <label
             for="month"

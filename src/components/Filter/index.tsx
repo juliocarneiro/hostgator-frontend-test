@@ -26,6 +26,7 @@ const Filter = ({ selectedTime, setSelectedTime }: Props) => {
                 setSelectedTime(ev.target.value)
               }}
             />
+            <span className="radiobtn"></span>
             <label htmlFor="three_years">3 anos</label>
           </li>
           <li
@@ -45,6 +46,7 @@ const Filter = ({ selectedTime, setSelectedTime }: Props) => {
                 setSelectedTime(ev.target.value)
               }}
             />
+            <span className="radiobtn"></span>
             <label htmlFor="year">1 ano</label>
           </li>
           <li
@@ -64,6 +66,7 @@ const Filter = ({ selectedTime, setSelectedTime }: Props) => {
                 setSelectedTime(ev.target.value)
               }}
             />
+            <span className="radiobtn"></span>
             <label htmlFor="month">1 mês</label>
           </li>
         </ul>
