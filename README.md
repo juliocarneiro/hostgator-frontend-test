@@ -51,3 +51,5 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Netlify Platform](https://netlify.com).
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+[Example in production](https://zen-fermi-7d2005.netlify.app/).
