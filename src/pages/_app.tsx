@@ -11,6 +11,9 @@ function App({ Component, pageProps }: AppProps) {
         <link rel="shortcut icon" href="/img/favicon.ico" />
         <link rel="apple-touch-icon" href="/img/favicon.ico" />
         <link rel="manifest" href="/manifest.json" />
+        <meta name="theme-color" content="#4480c5"></meta>
+        <meta name="description" content="A Hostgator front-end test." />
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <link
           href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap"
           rel="stylesheet"
