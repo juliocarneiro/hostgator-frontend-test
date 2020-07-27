@@ -56,12 +56,8 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 ## Bônus:
 
-Não usei Material UI nem bootstrap somente css (flexbox) e uma lib de animações (Animate.css).
-
-Fiz algumas animações onde os valores são trocados e no próprio filtro da página.
-
-Utilizei um boilerplate que eu fiz em Typscript + NextJS + Jest focando em, performance e PWA.
-
-Realizei testes unitarios com o jest e testing-library, queria ter usado o cypress como e2e mas nao tive tempo.
-
-Tambem fiz um pre test e lint com o husky e um deploy automatico com o git + netlyfy
+- Não usei Material UI nem bootstrap somente css (flexbox) e uma lib de animações (Animate.css).
+- Fiz algumas animações onde os valores são trocados e no próprio filtro da página.
+- Utilizei um boilerplate que eu fiz em Typscript + NextJS + Jest focando em, performance e PWA.
+- Realizei testes unitarios com o jest e testing-library, queria ter usado o cypress como e2e mas nao tive tempo.
+- Tambem fiz um pre test e lint com o husky e um deploy automatico com o git + netlyfy
