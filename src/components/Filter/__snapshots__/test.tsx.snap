@@ -1,0 +1,271 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Filter /> Three input elements exist 1`] = `
+.c0 {
+  font: Regular 14px/26px Montserrat;
+  -webkit-letter-spacing: 0px;
+  -moz-letter-spacing: 0px;
+  -ms-letter-spacing: 0px;
+  letter-spacing: 0px;
+  color: #1d5297;
+}
+
+.c1 {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 2px 4px #4480c570;
+  border: 1px solid #4480c5;
+  border-radius: 50px;
+  display: inline-block;
+  margin-top: 20px;
+  font: Regular 16px/23px Montserrat;
+}
+
+.c1 ul {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c1 ul li {
+  padding: 10px 20px;
+  border-radius: 21px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c1 ul li:not(:first-child) {
+  margin-left: 0px;
+}
+
+.c1 ul li label {
+  padding-left: 10px;
+  cursor: pointer;
+}
+
+.c1 ul li input {
+  cursor: pointer;
+}
+
+.c1 ul li.selected {
+  background: #4480c5 0% 0% no-repeat padding-box;
+  color: white;
+  font-weight: bold;
+}
+
+@media (max-width:768px) {
+  .c1 ul li label {
+    font-size: 12px;
+  }
+}
+
+<div>
+  <div
+    class="c0 container text-center"
+    id="choose"
+  >
+    <p
+      data-testid="choice-text"
+    >
+      Quero pagar a cada:
+    </p>
+    <div
+      class="c1"
+    >
+      <ul>
+        <li
+          class=""
+        >
+          <input
+            aria-label="three_years"
+            id="three_years"
+            type="radio"
+            value="three_years"
+          />
+          <label
+            for="three_years"
+          >
+            3 anos
+          </label>
+        </li>
+        <li
+          class="selected animate__animated animate__wobble"
+        >
+          <input
+            aria-label="year"
+            checked=""
+            id="year"
+            type="radio"
+            value="year"
+          />
+          <label
+            for="year"
+          >
+            1 ano
+          </label>
+        </li>
+        <li
+          class=""
+        >
+          <input
+            aria-label="month"
+            id="month"
+            type="radio"
+            value="month"
+          />
+          <label
+            for="month"
+          >
+            1 mês
+          </label>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Filter /> should choice text exist 1`] = `
+.c0 {
+  font: Regular 14px/26px Montserrat;
+  -webkit-letter-spacing: 0px;
+  -moz-letter-spacing: 0px;
+  -ms-letter-spacing: 0px;
+  letter-spacing: 0px;
+  color: #1d5297;
+}
+
+.c1 {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 2px 4px #4480c570;
+  border: 1px solid #4480c5;
+  border-radius: 50px;
+  display: inline-block;
+  margin-top: 20px;
+  font: Regular 16px/23px Montserrat;
+}
+
+.c1 ul {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c1 ul li {
+  padding: 10px 20px;
+  border-radius: 21px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c1 ul li:not(:first-child) {
+  margin-left: 0px;
+}
+
+.c1 ul li label {
+  padding-left: 10px;
+  cursor: pointer;
+}
+
+.c1 ul li input {
+  cursor: pointer;
+}
+
+.c1 ul li.selected {
+  background: #4480c5 0% 0% no-repeat padding-box;
+  color: white;
+  font-weight: bold;
+}
+
+@media (max-width:768px) {
+  .c1 ul li label {
+    font-size: 12px;
+  }
+}
+
+<div>
+  <div
+    class="c0 container text-center"
+    id="choose"
+  >
+    <p
+      data-testid="choice-text"
+    >
+      Quero pagar a cada:
+    </p>
+    <div
+      class="c1"
+    >
+      <ul>
+        <li
+          class=""
+        >
+          <input
+            aria-label="three_years"
+            id="three_years"
+            type="radio"
+            value="three_years"
+          />
+          <label
+            for="three_years"
+          >
+            3 anos
+          </label>
+        </li>
+        <li
+          class="selected animate__animated animate__wobble"
+        >
+          <input
+            aria-label="year"
+            checked=""
+            id="year"
+            type="radio"
+            value="year"
+          />
+          <label
+            for="year"
+          >
+            1 ano
+          </label>
+        </li>
+        <li
+          class=""
+        >
+          <input
+            aria-label="month"
+            id="month"
+            type="radio"
+            value="month"
+          />
+          <label
+            for="month"
+          >
+            1 mês
+          </label>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;

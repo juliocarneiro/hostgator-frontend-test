@@ -1,0 +1,1061 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Plans /> <Plan /> 1`] = `
+.c0 {
+  border-radius: 5px;
+  background: white;
+  width: 95%;
+  text-align: center;
+  border: 1px solid #dfecff;
+  border-top: 10px solid #F1F6FB;
+  border-bottom: 5px solid #F1F6FB;
+}
+
+.c0:nth-child(2) {
+  margin: 0 10px;
+}
+
+.c0 > img {
+  display: inline-block;
+  margin-top: 30px;
+  height: 40px;
+  width: 42px;
+}
+
+.c0 h1 {
+  font: Bold 26px/26px Montserrat;
+}
+
+.c1 > div:first-child {
+  padding: 10px 10px 30px 10px;
+  border-bottom: 1px solid #dfecff;
+}
+
+.c1 > div:not(:first-child) {
+  padding: 30px 20px;
+  border-bottom: 1px solid #dfecff;
+}
+
+.c1 > div p:nth-child(1) {
+  font-size: 14px;
+  color: #333333;
+  line-height: 1.5em;
+  margin-bottom: 5px;
+}
+
+.c1 > div p:nth-child(1) span {
+  -webkit-text-decoration: line-through;
+  text-decoration: line-through;
+}
+
+.c1 > div p:nth-child(2) {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.c1 > div p:nth-child(2) span {
+  font: Regular 20px/24px Montserrat;
+}
+
+.c1 > div p:nth-child(2) strong {
+  font: Bold 35px/24px Montserrat;
+  margin: 0 5px;
+}
+
+.c1 > div a {
+  display: block;
+  margin: 30px 0;
+  padding: 15px;
+  background: #4480c5 0% 0% no-repeat padding-box;
+  background: #4480c5;
+  border-radius: 26px;
+  color: white;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.c1 > div > div b {
+  width: 100%;
+  display: block;
+  color: black;
+  margin-bottom: 10px;
+  font: Bold 15px/20px Montserrat;
+}
+
+.c1 > div > div span {
+  font-size: 14px;
+}
+
+.c1 > div > div span strong {
+  background: #51c99c 0% 0% no-repeat padding-box;
+  border-radius: 224px;
+  color: #ffffff;
+  text-transform: uppercase;
+  padding: 5px 10px;
+  margin-left: 5px;
+}
+
+.c2 {
+  padding: 30px 20px;
+  border-bottom: 1px solid #dfecff;
+}
+
+.c2 p {
+  color: #333333;
+  margin: 10px 0;
+}
+
+.c2 p:last-child {
+  margin: 10px 0 0 0;
+}
+
+.c2 p:first-child,
+.c2 p:nth-child(3) {
+  display: inline;
+  border-bottom: 1px dashed #d1deee;
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <img
+      alt=""
+      src="/img/1.svg"
+    />
+    <div
+      class="c1 plan-body"
+    >
+      <div>
+        <h1>
+          Plano P
+        </h1>
+      </div>
+      <div
+        class="animate__animated animate__flipInX  "
+      >
+        <p>
+          <span>
+            R$ 
+            10
+          </span>
+           
+          <b>
+            R$ 
+            4
+          </b>
+          <br />
+          equivalente a
+        </p>
+        <p>
+          <span>
+            R$
+          </span>
+          <strong>
+            4
+          </strong>
+          <span>
+            /mês*
+          </span>
+        </p>
+        <a
+          href="http://hostgator.com/?a=add&pid=1&billingcycle=annually&promocode=PROMOHG40"
+        >
+          Contrate Agora
+        </a>
+        <div>
+          <b>
+            1 ano de Domínio Grátis.
+          </b>
+          <span>
+            economize R$ 
+            6
+            <strong>
+              40
+              % off
+            </strong>
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      class="c2 text-left"
+      data-testid="plan-footer"
+    >
+      <p>
+        Para 1 site
+      </p>
+      <p>
+        <b>
+          100 GB 
+        </b>
+        de Armazenamento
+      </p>
+      <p>
+        Contas de E-mail 
+        <b>
+          Ilimitadas
+        </b>
+      </p>
+      <p>
+        Criador de Sites 
+        <b>
+          Grátis
+        </b>
+      </p>
+      <p>
+        Certificado SSL 
+        <b>
+          Grátis
+        </b>
+         (https)
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Plans /> <PlanBody /> 1`] = `
+NodeList [
+  .c0 > div:first-child {
+  padding: 10px 10px 30px 10px;
+  border-bottom: 1px solid #dfecff;
+}
+
+.c0 > div:not(:first-child) {
+  padding: 30px 20px;
+  border-bottom: 1px solid #dfecff;
+}
+
+.c0 > div p:nth-child(1) {
+  font-size: 14px;
+  color: #333333;
+  line-height: 1.5em;
+  margin-bottom: 5px;
+}
+
+.c0 > div p:nth-child(1) span {
+  -webkit-text-decoration: line-through;
+  text-decoration: line-through;
+}
+
+.c0 > div p:nth-child(2) {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.c0 > div p:nth-child(2) span {
+  font: Regular 20px/24px Montserrat;
+}
+
+.c0 > div p:nth-child(2) strong {
+  font: Bold 35px/24px Montserrat;
+  margin: 0 5px;
+}
+
+.c0 > div a {
+  display: block;
+  margin: 30px 0;
+  padding: 15px;
+  background: #4480c5 0% 0% no-repeat padding-box;
+  background: #4480c5;
+  border-radius: 26px;
+  color: white;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.c0 > div > div b {
+  width: 100%;
+  display: block;
+  color: black;
+  margin-bottom: 10px;
+  font: Bold 15px/20px Montserrat;
+}
+
+.c0 > div > div span {
+  font-size: 14px;
+}
+
+.c0 > div > div span strong {
+  background: #51c99c 0% 0% no-repeat padding-box;
+  border-radius: 224px;
+  color: #ffffff;
+  text-transform: uppercase;
+  padding: 5px 10px;
+  margin-left: 5px;
+}
+
+<div
+    class="c0 plan-body"
+  >
+    <div>
+      <h1>
+        Plan M
+      </h1>
+    </div>
+    <div
+      class="animate__animated animate__flipInX  "
+    >
+      <p>
+        <span>
+          R$ 
+          100
+        </span>
+         
+        <b>
+          R$ 
+          40
+        </b>
+        <br />
+        equivalente a
+      </p>
+      <p>
+        <span>
+          R$
+        </span>
+        <strong>
+          3.33
+        </strong>
+        <span>
+          /mês*
+        </span>
+      </p>
+      <a
+        href="http://hostgator.com/?a=add&pid=2&billingcycle=annually&promocode=PROMOHG40"
+      >
+        Contrate Agora
+      </a>
+      <div>
+        <b>
+          1 ano de Domínio Grátis.
+        </b>
+        <span>
+          economize R$ 
+          60
+          <strong>
+            40
+            % off
+          </strong>
+        </span>
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`<Plans /> should render 3 Plans 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.c6 {
+  border-radius: 5px;
+  background: white;
+  width: 95%;
+  text-align: center;
+  border: 1px solid #dfecff;
+  border-top: 10px solid #F1F6FB;
+  border-bottom: 5px solid #F1F6FB;
+}
+
+.c6:nth-child(2) {
+  margin: 0 10px;
+}
+
+.c6 > img {
+  display: inline-block;
+  margin-top: 30px;
+  height: 40px;
+  width: 42px;
+}
+
+.c6 h1 {
+  font: Bold 26px/26px Montserrat;
+}
+
+.c9 {
+  border-radius: 5px;
+  background: white;
+  width: 95%;
+  text-align: center;
+  border: 1px solid #dfecff;
+  border-top: 10px solid #ff6a17;
+  border-bottom: 5px solid #ff6a17;
+}
+
+.c9:nth-child(2) {
+  margin: 0 10px;
+}
+
+.c9 > img {
+  display: inline-block;
+  margin-top: 30px;
+  height: 40px;
+  width: 42px;
+}
+
+.c9 h1 {
+  font: Bold 26px/26px Montserrat;
+}
+
+.c7 > div:first-child {
+  padding: 10px 10px 30px 10px;
+  border-bottom: 1px solid #dfecff;
+}
+
+.c7 > div:not(:first-child) {
+  padding: 30px 20px;
+  border-bottom: 1px solid #dfecff;
+}
+
+.c7 > div p:nth-child(1) {
+  font-size: 14px;
+  color: #333333;
+  line-height: 1.5em;
+  margin-bottom: 5px;
+}
+
+.c7 > div p:nth-child(1) span {
+  -webkit-text-decoration: line-through;
+  text-decoration: line-through;
+}
+
+.c7 > div p:nth-child(2) {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.c7 > div p:nth-child(2) span {
+  font: Regular 20px/24px Montserrat;
+}
+
+.c7 > div p:nth-child(2) strong {
+  font: Bold 35px/24px Montserrat;
+  margin: 0 5px;
+}
+
+.c7 > div a {
+  display: block;
+  margin: 30px 0;
+  padding: 15px;
+  background: #4480c5 0% 0% no-repeat padding-box;
+  background: #4480c5;
+  border-radius: 26px;
+  color: white;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.c7 > div > div b {
+  width: 100%;
+  display: block;
+  color: black;
+  margin-bottom: 10px;
+  font: Bold 15px/20px Montserrat;
+}
+
+.c7 > div > div span {
+  font-size: 14px;
+}
+
+.c7 > div > div span strong {
+  background: #51c99c 0% 0% no-repeat padding-box;
+  border-radius: 224px;
+  color: #ffffff;
+  text-transform: uppercase;
+  padding: 5px 10px;
+  margin-left: 5px;
+}
+
+.c10 > div:first-child {
+  padding: 10px 10px 30px 10px;
+  border-bottom: 1px solid #dfecff;
+}
+
+.c10 > div:not(:first-child) {
+  padding: 30px 20px;
+  border-bottom: 1px solid #dfecff;
+}
+
+.c10 > div p:nth-child(1) {
+  font-size: 14px;
+  color: #333333;
+  line-height: 1.5em;
+  margin-bottom: 5px;
+}
+
+.c10 > div p:nth-child(1) span {
+  -webkit-text-decoration: line-through;
+  text-decoration: line-through;
+}
+
+.c10 > div p:nth-child(2) {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.c10 > div p:nth-child(2) span {
+  font: Regular 20px/24px Montserrat;
+}
+
+.c10 > div p:nth-child(2) strong {
+  font: Bold 35px/24px Montserrat;
+  margin: 0 5px;
+}
+
+.c10 > div a {
+  display: block;
+  margin: 30px 0;
+  padding: 15px;
+  background: #4480c5 0% 0% no-repeat padding-box;
+  background: #ff6a17;
+  border-radius: 26px;
+  color: white;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.c10 > div > div b {
+  width: 100%;
+  display: block;
+  color: black;
+  margin-bottom: 10px;
+  font: Bold 15px/20px Montserrat;
+}
+
+.c10 > div > div span {
+  font-size: 14px;
+}
+
+.c10 > div > div span strong {
+  background: #51c99c 0% 0% no-repeat padding-box;
+  border-radius: 224px;
+  color: #ffffff;
+  text-transform: uppercase;
+  padding: 5px 10px;
+  margin-left: 5px;
+}
+
+.c8 {
+  padding: 30px 20px;
+  border-bottom: 1px solid #dfecff;
+}
+
+.c8 p {
+  color: #333333;
+  margin: 10px 0;
+}
+
+.c8 p:last-child {
+  margin: 10px 0 0 0;
+}
+
+.c8 p:first-child,
+.c8 p:nth-child(3) {
+  display: inline;
+  border-bottom: 1px dashed #d1deee;
+}
+
+.c5 {
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c3 {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  margin: 0 10px;
+}
+
+.c4 {
+  position: absolute;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  min-height: 100%;
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
+  left: 0px;
+  right: auto;
+  top: auto;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  width: 100%;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+  direction: ltr;
+}
+
+@media (max-width:1200px) {
+  .c0 {
+    display: block;
+  }
+
+  .c0 > div {
+    width: 100%;
+  }
+
+  .c0 > div:nth-child(2) {
+    margin: 0px;
+  }
+}
+
+<div>
+  <div
+    class="c0 container"
+  >
+    <div
+      class="c1 rec rec-carousel-wrapper "
+    >
+      <div
+        class="c2 rec rec-carousel"
+        style="height: 0px;"
+      >
+        <button
+          class="button-prev"
+          disabled=""
+        >
+          &lt;
+        </button>
+        <div
+          class="c3 rec rec-slider-container"
+        >
+          <div
+            class="c4 rec rec-slider"
+          >
+            <div
+              tabindex="0"
+            >
+              <div
+                class="rec rec-swipable-0"
+              >
+                <div
+                  class="c5 rec rec-item-wrapper"
+                  style="width: 0px; padding: 0px 0px 0px 0px;"
+                >
+                  <div
+                    class="c6"
+                  >
+                    <img
+                      alt=""
+                      src="/img/1.svg"
+                    />
+                    <div
+                      class="c7 plan-body"
+                    >
+                      <div>
+                        <h1>
+                          Plano P
+                        </h1>
+                      </div>
+                      <div
+                        class="animate__animated animate__flipInX  "
+                      >
+                        <p>
+                          <span>
+                            R$ 
+                            10
+                          </span>
+                           
+                          <b>
+                            R$ 
+                            4
+                          </b>
+                          <br />
+                          equivalente a
+                        </p>
+                        <p>
+                          <span>
+                            R$
+                          </span>
+                          <strong>
+                            4
+                          </strong>
+                          <span>
+                            /mês*
+                          </span>
+                        </p>
+                        <a
+                          href="http://hostgator.com/?a=add&pid=1&billingcycle=annually&promocode=PROMOHG40"
+                        >
+                          Contrate Agora
+                        </a>
+                        <div>
+                          <b>
+                            1 ano de Domínio Grátis.
+                          </b>
+                          <span>
+                            economize R$ 
+                            6
+                            <strong>
+                              40
+                              % off
+                            </strong>
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="c8 text-left"
+                      data-testid="plan-footer"
+                    >
+                      <p>
+                        Para 1 site
+                      </p>
+                      <p>
+                        <b>
+                          100 GB 
+                        </b>
+                        de Armazenamento
+                      </p>
+                      <p>
+                        Contas de E-mail 
+                        <b>
+                          Ilimitadas
+                        </b>
+                      </p>
+                      <p>
+                        Criador de Sites 
+                        <b>
+                          Grátis
+                        </b>
+                      </p>
+                      <p>
+                        Certificado SSL 
+                        <b>
+                          Grátis
+                        </b>
+                         (https)
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              tabindex="0"
+            >
+              <div
+                class="rec rec-swipable-1"
+              >
+                <div
+                  class="c5 rec rec-item-wrapper"
+                  style="width: 0px; padding: 0px 0px 0px 0px;"
+                >
+                  <div
+                    class="c9"
+                  >
+                    <img
+                      alt=""
+                      src="/img/2.svg"
+                    />
+                    <div
+                      class="c10 plan-body"
+                    >
+                      <div>
+                        <h1>
+                          Plano M
+                        </h1>
+                      </div>
+                      <div
+                        class="animate__animated animate__flipInX animate__delay-1s "
+                      >
+                        <p>
+                          <span>
+                            R$ 
+                            10
+                          </span>
+                           
+                          <b>
+                            R$ 
+                            4
+                          </b>
+                          <br />
+                          equivalente a
+                        </p>
+                        <p>
+                          <span>
+                            R$
+                          </span>
+                          <strong>
+                            4
+                          </strong>
+                          <span>
+                            /mês*
+                          </span>
+                        </p>
+                        <a
+                          href="http://hostgator.com/?a=add&pid=2&billingcycle=annually&promocode=PROMOHG40"
+                        >
+                          Contrate Agora
+                        </a>
+                        <div>
+                          <b>
+                            1 ano de Domínio Grátis.
+                          </b>
+                          <span>
+                            economize R$ 
+                            6
+                            <strong>
+                              40
+                              % off
+                            </strong>
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="c8 text-left"
+                      data-testid="plan-footer"
+                    >
+                      <p>
+                        Sites Ilimitados
+                      </p>
+                      <p>
+                        <b>
+                          100 GB 
+                        </b>
+                        de Armazenamento
+                      </p>
+                      <p>
+                        Contas de E-mail 
+                        <b>
+                          Ilimitadas
+                        </b>
+                      </p>
+                      <p>
+                        Criador de Sites 
+                        <b>
+                          Grátis
+                        </b>
+                      </p>
+                      <p>
+                        Certificado SSL 
+                        <b>
+                          Grátis
+                        </b>
+                         (https)
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              tabindex="0"
+            >
+              <div
+                class="rec rec-swipable-2"
+              >
+                <div
+                  class="c5 rec rec-item-wrapper"
+                  style="width: 0px; padding: 0px 0px 0px 0px;"
+                >
+                  <div
+                    class="c6"
+                  >
+                    <img
+                      alt=""
+                      src="/img/3.svg"
+                    />
+                    <div
+                      class="c7 plan-body"
+                    >
+                      <div>
+                        <h1>
+                          Plano Turbo
+                        </h1>
+                      </div>
+                      <div
+                        class="animate__animated animate__flipInX  animate__delay-2s"
+                      >
+                        <p>
+                          <span>
+                            R$ 
+                            10
+                          </span>
+                           
+                          <b>
+                            R$ 
+                            4
+                          </b>
+                          <br />
+                          equivalente a
+                        </p>
+                        <p>
+                          <span>
+                            R$
+                          </span>
+                          <strong>
+                            4
+                          </strong>
+                          <span>
+                            /mês*
+                          </span>
+                        </p>
+                        <a
+                          href="http://hostgator.com/?a=add&pid=3&billingcycle=annually&promocode=PROMOHG40"
+                        >
+                          Contrate Agora
+                        </a>
+                        <div>
+                          <b>
+                            1 ano de Domínio Grátis.
+                          </b>
+                          <span>
+                            economize R$ 
+                            6
+                            <strong>
+                              40
+                              % off
+                            </strong>
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="c8 text-left"
+                      data-testid="plan-footer"
+                    >
+                      <p>
+                        Sites Ilimitados
+                      </p>
+                      <p>
+                        <b>
+                          150 GB 
+                        </b>
+                        de Armazenamento
+                      </p>
+                      <p>
+                        Contas de E-mail 
+                        <b>
+                          Ilimitadas
+                        </b>
+                      </p>
+                      <p>
+                        Criador de Sites 
+                        <b>
+                          Grátis
+                        </b>
+                      </p>
+                      <p>
+                        Certificado SSL 
+                        <b>
+                          Grátis
+                        </b>
+                         (https)
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="button-next"
+        >
+          &gt;
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;

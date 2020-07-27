@@ -1,0 +1,139 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render Main <Main /> to be visible 1`] = `
+Object {
+  "current": <React.Fragment>
+    <div
+      className="animate__animated animate__fadeIn"
+    >
+      <Header />
+      <Filter
+        selectedTime="three_years"
+        setSelectedTime={[Function]}
+      />
+      <Plans
+        productsData={
+          Array [
+            Object {
+              "cycle": Array [
+                Object {
+                  "annually": Object {
+                    "months": 12,
+                    "priceOrder": "220.66",
+                    "priceRenew": "220.66",
+                  },
+                  "biennially": Object {
+                    "months": 24,
+                    "priceOrder": "393.36",
+                    "priceRenew": "393.36",
+                  },
+                  "monthly": Object {
+                    "months": 1,
+                    "priceOrder": "24.19",
+                    "priceRenew": "24.19",
+                  },
+                  "quarterly": Object {
+                    "months": 3,
+                    "priceOrder": "67.17",
+                    "priceRenew": "67.17",
+                  },
+                  "semiannually": Object {
+                    "months": 6,
+                    "priceOrder": "128.34",
+                    "priceRenew": "128.34",
+                  },
+                  "triennially": Object {
+                    "months": 36,
+                    "priceOrder": "561.13",
+                    "priceRenew": "561.13",
+                  },
+                },
+              ],
+              "id": 5,
+              "name": "Plano P",
+            },
+            Object {
+              "cycle": Array [
+                Object {
+                  "annually": Object {
+                    "months": 12,
+                    "priceOrder": "286.66",
+                    "priceRenew": "286.66",
+                  },
+                  "biennially": Object {
+                    "months": 24,
+                    "priceOrder": "532.56",
+                    "priceRenew": "532.56",
+                  },
+                  "monthly": Object {
+                    "months": 1,
+                    "priceOrder": "29.69",
+                    "priceRenew": "29.69",
+                  },
+                  "quarterly": Object {
+                    "months": 3,
+                    "priceOrder": "82.77",
+                    "priceRenew": "82.77",
+                  },
+                  "semiannually": Object {
+                    "months": 6,
+                    "priceOrder": "159.54",
+                    "priceRenew": "159.54",
+                  },
+                  "triennially": Object {
+                    "months": 36,
+                    "priceOrder": "764.22",
+                    "priceRenew": "764.22",
+                  },
+                },
+              ],
+              "id": 6,
+              "name": "Plano M",
+            },
+            Object {
+              "cycle": Array [
+                Object {
+                  "annually": Object {
+                    "months": 12,
+                    "priceOrder": "529.07",
+                    "priceRenew": "529.07",
+                  },
+                  "biennially": Object {
+                    "months": 24,
+                    "priceOrder": "1032.95",
+                    "priceRenew": "1032.95",
+                  },
+                  "monthly": Object {
+                    "months": 1,
+                    "priceOrder": "47.24",
+                    "priceRenew": "47.24",
+                  },
+                  "quarterly": Object {
+                    "months": 3,
+                    "priceOrder": "138.57",
+                    "priceRenew": "138.57",
+                  },
+                  "semiannually": Object {
+                    "months": 6,
+                    "priceOrder": "270.84",
+                    "priceRenew": "270.84",
+                  },
+                  "triennially": Object {
+                    "months": 36,
+                    "priceOrder": "1511.62",
+                    "priceRenew": "1511.62",
+                  },
+                },
+              ],
+              "id": 335,
+              "name": "Plano Turbo",
+            },
+          ]
+        }
+        selectedTime="three_years"
+      />
+    </div>
+  </React.Fragment>,
+  "error": undefined,
+}
+`;
