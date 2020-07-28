@@ -1,35 +1,15 @@
 import fetch from 'isomorphic-fetch'
-
-type Product = {
-  name: string
-  id: string
-  cycle: [
-    {
-      annually: { priceOrder: number; months: number }
-      triennially: { priceOrder: number; months: number }
-      monthly: { priceOrder: number; months: number }
-    }
-  ]
-}
-type Products = {
-  name: string
-  id: string
-  cycle: {
-    annually: { priceOrder: number; months: number }
-    triennially: { priceOrder: number; months: number }
-    monthly: { priceOrder: number; months: number }
-  }
-}
+import { TMainProducts } from '../components/Main/TMainProps'
 
 export const getProducts = async () => {
   const responseData = await fetch(
     `https://6dd1804f-a914-4c99-a1ed-58adca2bca74.mock.pstmn.io/prices`
   )
   const data = await responseData.json()
-  const productsData = data.shared.products as Products[]
+  const productsData = data.shared.products as TMainProducts
 
   const products = Object.values(productsData).map(
-    (product): Product => ({
+    (product): TMainProducts => ({
       id: product.id,
       name: product.name,
       cycle: [product.cycle]
@@ -52,5 +32,12 @@ export function discount(discount: number, total: number): number {
   const value = total - discount
   return Number(value.toFixed(2))
 }
+
+export const breakPoints = [
+  { width: 1, itemsToShow: 1 },
+  { width: 550, itemsToShow: 1 },
+  { width: 768, itemsToShow: 2 },
+  { width: 920, itemsToShow: 3 }
+]
 
 export default getProducts

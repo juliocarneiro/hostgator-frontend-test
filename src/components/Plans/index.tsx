@@ -1,5 +1,6 @@
 import * as S from './styles'
 import Plan from './Plan'
+import { breakPoints } from '../../utils'
 
 // @ts-ignore-start
 import Carousel from 'react-elastic-carousel'
@@ -8,13 +9,6 @@ import Carousel from 'react-elastic-carousel'
 import { TPlansProps, TArrowsProps } from './TPlansProps'
 
 const Plans = ({ selectedTime, productsData }: TPlansProps) => {
-  const breakPoints = [
-    { width: 1, itemsToShow: 1 },
-    { width: 550, itemsToShow: 1 },
-    { width: 768, itemsToShow: 2 },
-    { width: 920, itemsToShow: 3 }
-  ]
-
   function buttonArrows({ type, onClick, isEdge }: TArrowsProps) {
     const classes: string = type === 'PREV' ? 'button-prev' : 'button-next'
     return (
