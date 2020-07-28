@@ -1,4 +1,4 @@
-export type TMainProducts = {
+export interface TMainProducts {
   name: string
   cycle: [
     {

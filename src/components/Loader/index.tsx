@@ -74,7 +74,7 @@ const LoadingStyled = styled.div`
   text-align: center;
 `
 
-const Loader = ({ isLoading }: TLoadingProps): JSX.Element => (
+const Loader = ({ isLoading }: TLoadingProps) => (
   <>
     {isLoading && (
       <LoadingStyled

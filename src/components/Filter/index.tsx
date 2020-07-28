@@ -20,7 +20,7 @@ const Filter = ({ selectedTime, setSelectedTime }: TFilterProps) => {
               aria-label="three_years"
               checked={selectedTime === 'three_years'}
               value="three_years"
-              onChange={(ev: React.ChangeEvent<HTMLInputElement>): void => {
+              onChange={(ev): void => {
                 setSelectedTime(ev.target.value)
               }}
             />
@@ -40,7 +40,7 @@ const Filter = ({ selectedTime, setSelectedTime }: TFilterProps) => {
               aria-label="year"
               checked={selectedTime === 'year'}
               value="year"
-              onChange={(ev: React.ChangeEvent<HTMLInputElement>): void => {
+              onChange={(ev): void => {
                 setSelectedTime(ev.target.value)
               }}
             />
@@ -60,7 +60,7 @@ const Filter = ({ selectedTime, setSelectedTime }: TFilterProps) => {
               aria-label="month"
               checked={selectedTime === 'month'}
               value="month"
-              onChange={(ev: React.ChangeEvent<HTMLInputElement>): void => {
+              onChange={(ev): void => {
                 setSelectedTime(ev.target.value)
               }}
             />

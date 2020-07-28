@@ -1,4 +1,4 @@
-export type TFilterProps = {
+export interface TFilterProps {
   selectedTime: string
   setSelectedTime: (ev: string) => void
 }

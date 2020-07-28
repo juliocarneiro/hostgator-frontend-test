@@ -1,32 +1,15 @@
 import { TMainProducts, TMainSelectedTime } from '../Main/TMainProps'
 
-export type TPlansProps = {
+export interface TPlansProps {
   selectedTime: TMainSelectedTime
   productsData: TMainProducts[]
 }
 
-export type TArrowsProps = {
-  type: string
-  onClick: (event: React.MouseEvent<HTMLButtonElement>) => void
-  isEdge: boolean
-}
-
-export type TPlanProps = {
-  productsData: {
-    name: string
-    cycle: [
-      {
-        annually: { priceOrder: number; months: number }
-        triennially: { priceOrder: number; months: number }
-        monthly: { priceOrder: number; months: number }
-      }
-    ]
-    id: string
-  }
+export interface TPlanProps {
+  productsData: TMainProducts
   selectedTime: string
 }
-
-export type TPlanBodyProps = {
+export interface TPlanBodyProps {
   midPlan: boolean
   name: string
   id: string
@@ -35,4 +18,10 @@ export type TPlanBodyProps = {
   month: number
   selectedTime: string
   promoCode: string
+}
+
+export interface TArrowsProps {
+  type: string
+  onClick: () => void
+  isEdge: boolean
 }

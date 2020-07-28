@@ -1,3 +1,3 @@
-export type TLoadingProps = {
+export interface TLoadingProps {
   isLoading: boolean
 }
