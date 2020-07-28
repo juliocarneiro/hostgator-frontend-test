@@ -1,16 +1,7 @@
 import * as S from './styles'
 import { percentage, currency, discount } from 'utils'
 
-type PlanBodyType = {
-  midPlan: boolean
-  name: string
-  id: string
-  price: number
-  percent: number
-  month: number
-  selectedTime: string
-  promoCode: string
-}
+import { TPlanBodyProps } from './TPlansProps'
 
 const PlanBody = ({
   midPlan,
@@ -21,7 +12,7 @@ const PlanBody = ({
   month,
   selectedTime,
   promoCode
-}: PlanBodyType) => {
+}: TPlanBodyProps) => {
   const divideMonth = price / month
   const discountPrice = percentage(percent, price)
   const percentPrice = percentage(percent, divideMonth)

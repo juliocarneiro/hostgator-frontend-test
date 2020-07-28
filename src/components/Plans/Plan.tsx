@@ -1,22 +1,9 @@
 import PlanBody from './PlanBody'
 import * as S from './styles'
 
-type PlanType = {
-  productsData: {
-    name: string
-    cycle: [
-      {
-        annually: { priceOrder: number; months: number }
-        triennially: { priceOrder: number; months: number }
-        monthly: { priceOrder: number; months: number }
-      }
-    ]
-    id: string
-  }
-  selectedTime: string
-}
+import { TPlanProps } from './TPlansProps'
 
-const Plan = ({ productsData, selectedTime }: PlanType) => {
+const Plan = ({ productsData, selectedTime }: TPlanProps) => {
   const { name, cycle, id } = productsData
 
   const cycleData = Object.assign({}, cycle[0])

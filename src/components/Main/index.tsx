@@ -6,23 +6,13 @@ import Filter from '../Filter'
 import Plans from '../Plans'
 import Loader from '../Loader'
 
-type Products = {
-  name: string
-  cycle: [
-    {
-      annually: { priceOrder: number; months: number }
-      triennially: { priceOrder: number; months: number }
-      monthly: { priceOrder: number; months: number }
-    }
-  ]
-  id: string
-}
-
-type SelectedTime = string
+import { TMainProducts, TMainSelectedTime } from './TMainProps'
 
 const Main = () => {
-  const [productsData, setProductsData] = useState<Products[] | []>([])
-  const [selectedTime, setSelectedTime] = useState<SelectedTime>('three_years')
+  const [productsData, setProductsData] = useState<TMainProducts[] | []>([])
+  const [selectedTime, setSelectedTime] = useState<TMainSelectedTime>(
+    'three_years'
+  )
   const [isLoading, setIsLoading] = useState<boolean>(true)
 
   useEffect(() => {

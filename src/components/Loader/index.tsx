@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { TLoadingProps } from './TLoadingProps'
 
 const LoadingStyled = styled.div`
   .lds-ellipsis {
@@ -73,11 +74,7 @@ const LoadingStyled = styled.div`
   text-align: center;
 `
 
-type Props = {
-  isLoading: boolean
-}
-
-const Loader = ({ isLoading }: Props): JSX.Element => (
+const Loader = ({ isLoading }: TLoadingProps): JSX.Element => (
   <>
     {isLoading && (
       <LoadingStyled

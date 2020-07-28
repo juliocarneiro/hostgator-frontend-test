@@ -1,9 +1,7 @@
 import * as S from './styles'
-type Props = {
-  selectedTime: string
-  setSelectedTime: (ev: string) => void
-}
-const Filter = ({ selectedTime, setSelectedTime }: Props) => {
+import { TFilterProps } from './TFilterProps'
+
+const Filter = ({ selectedTime, setSelectedTime }: TFilterProps) => {
   return (
     <S.Wrapper className="container text-center" id="choose">
       <p data-testid="choice-text">Quero pagar a cada:</p>
