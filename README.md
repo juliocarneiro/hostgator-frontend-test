@@ -1,4 +1,4 @@
-<img src="https://img.shields.io/github/last-commit/juliocarneiro/hostgator-frontend-test/master"> <img src="https://img.shields.io/snyk/vulnerabilities/github/juliocarneiro/hostgator-frontend-test">
+[![Netlify Status](https://api.netlify.com/api/v1/badges/8fc5aad4-06b9-4ae8-9c2c-d4c430b7868e/deploy-status)](https://app.netlify.com/sites/visionary-donut-956c4c/deploys) <img src="https://img.shields.io/github/last-commit/juliocarneiro/hostgator-frontend-test/master"> <img src="https://img.shields.io/snyk/vulnerabilities/github/juliocarneiro/hostgator-frontend-test">
 
 This is a [Next.js](https://nextjs.org/) boilerplate with Typescript and Styled-Components.
 
