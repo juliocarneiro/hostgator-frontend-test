@@ -9,7 +9,6 @@ module.exports = withPWA({
     //disable: !isProd
   },
   images: {
-    domains: ['localhost', 'res.cloudinary.com'],
-    unoptimized: true
+    domains: ['localhost', 'res.cloudinary.com']
   }
 })
