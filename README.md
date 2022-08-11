@@ -1,4 +1,4 @@
-[![ci](https://github.com/juliocarneiro/hostgator-frontend-test/actions/workflows/ci.yml/badge.svg)](https://github.com/juliocarneiro/hostgator-frontend-test/actions/workflows/ci.yml) <img src="https://img.shields.io/github/last-commit/juliocarneiro/hostgator-frontend-test/master"> <img src="https://img.shields.io/snyk/vulnerabilities/github/juliocarneiro/hostgator-frontend-test">
+<img src="https://img.shields.io/github/last-commit/juliocarneiro/hostgator-frontend-test/master"> <img src="https://img.shields.io/snyk/vulnerabilities/github/juliocarneiro/hostgator-frontend-test">
 
 This is a [Next.js](https://nextjs.org/) boilerplate with Typescript and Styled-Components.
 
