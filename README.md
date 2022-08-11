@@ -74,7 +74,7 @@ The easiest way to deploy your Next.js app is to use the [Netlify Platform](http
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
-[Example in production](https://zen-fermi-7d2005.netlify.app/).
+[Example in production](https://visionary-donut-956c4c.netlify.app/).
 
 ## Bônus:
 
