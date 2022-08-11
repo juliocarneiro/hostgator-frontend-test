@@ -98,7 +98,7 @@ export const ImageHeader = styled.div`
   width: 50%;
   display: flex;
   justify-content: center;
-  img {
+  span {
     width: 75%;
     height: 313px;
     position: relative;
