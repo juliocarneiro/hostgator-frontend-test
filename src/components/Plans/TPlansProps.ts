@@ -19,9 +19,3 @@ export interface TPlanBodyProps {
   selectedTime: string
   promoCode: string
 }
-
-export interface TArrowsProps {
-  type: string
-  onClick: () => void
-  isEdge: boolean
-}

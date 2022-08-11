@@ -78,6 +78,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 ## Bônus:
 
+- React 18 e Next 12.
 - Utilizei react hooks para o gerenciamento de estados.
 - Loader component para carregar os dados do fetch em primeira visita junto ao nprogress loader para trocar de pagina.
 - Não usei Material UI nem bootstrap somente css (flexbox) e uma lib de animações css (Animate.css).

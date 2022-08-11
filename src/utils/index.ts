@@ -33,11 +33,4 @@ export function discount(discount: number, total: number): number {
   return Number(value.toFixed(2))
 }
 
-export const breakPoints = [
-  { width: 1, itemsToShow: 1 },
-  { width: 550, itemsToShow: 1 },
-  { width: 768, itemsToShow: 2 },
-  { width: 920, itemsToShow: 3 }
-]
-
 export default getProducts
