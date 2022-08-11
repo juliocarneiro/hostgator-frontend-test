@@ -1,4 +1,4 @@
-[![ci](https://github.com/juliocarneiro/boilerplate-next-ts/actions/workflows/ci.yml/badge.svg)](https://github.com/juliocarneiro/boilerplate-next-ts/actions/workflows/ci.yml) <img src="https://img.shields.io/github/last-commit/juliocarneiro/boilerplate-next-ts/master"> <img src="https://img.shields.io/snyk/vulnerabilities/github/juliocarneiro/boilerplate-next-ts">
+[![ci](https://github.com/juliocarneiro/hostgator-frontend-test/actions/workflows/ci.yml/badge.svg)](https://github.com/juliocarneiro/hostgator-frontend-test/actions/workflows/ci.yml) <img src="https://img.shields.io/github/last-commit/juliocarneiro/hostgator-frontend-test/master"> <img src="https://img.shields.io/snyk/vulnerabilities/github/juliocarneiro/hostgator-frontend-test">
 
 This is a [Next.js](https://nextjs.org/) boilerplate with Typescript and Styled-Components.
 
@@ -68,8 +68,21 @@ To learn more about Next.js, take a look at the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Amazon S3
+## Deploy on Netlify
 
-Automatic deploy to Amazon S3 with pipeline in github actions and workflows.
+The easiest way to deploy your Next.js app is to use the [Netlify Platform](https://netlify.com).
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+[Example in production](https://zen-fermi-7d2005.netlify.app/).
+
+## Bônus:
+
+- Utilizei react hooks para o gerenciamento de estados.
+- Loader component para carregar os dados do fetch em primeira visita junto ao nprogress loader para trocar de pagina.
+- Não usei Material UI nem bootstrap somente css (flexbox) e uma lib de animações css (Animate.css).
+- Fiz algumas animações onde os valores são trocados e no próprio filtro da página.
+- Utilizei um boilerplate que eu fiz em Typscript + NextJS + Jest/Testing Library focando em performance e PWA.
+- Realizei testes unitarios com o jest e testing-library, queria ter usado o cypress como e2e mas nao tive tempo.
+- Tambem fiz um pre test e lint com o husky e um deploy automatico com o git + netlyfy
+- Não utilizei as imagens do radio button, fiz em css.
