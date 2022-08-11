@@ -10,9 +10,8 @@ import { TMainProducts, TMainSelectedTime } from './TMainProps'
 
 const Main = () => {
   const [productsData, setProductsData] = useState<TMainProducts[] | []>([])
-  const [selectedTime, setSelectedTime] = useState<TMainSelectedTime>(
-    'three_years'
-  )
+  const [selectedTime, setSelectedTime] =
+    useState<TMainSelectedTime>('three_years')
   const [isLoading, setIsLoading] = useState<boolean>(true)
 
   useEffect(() => {

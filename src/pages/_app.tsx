@@ -1,7 +1,16 @@
 import { AppProps } from 'next/app'
 import Head from 'next/head'
+import Router from 'next/router'
+import NProgress from 'nprogress'
 
 import GlobalStyles from 'styles/global'
+import 'styles/nprogress.css'
+
+Router.events.on('routeChangeStart', () => {
+  NProgress.start()
+})
+Router.events.on('routeChangeComplete', () => NProgress.done())
+Router.events.on('routeChangeError', () => NProgress.done())
 
 function App({ Component, pageProps }: AppProps) {
   return (
@@ -14,14 +23,6 @@ function App({ Component, pageProps }: AppProps) {
         <meta name="theme-color" content="#4480c5" />
         <meta name="description" content="A Hostgator front-end test." />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap"
-          rel="stylesheet"
-        ></link>
-        <link
-          rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
-        />
         <meta name="description" content="Hostgator Test Front-end" />
       </Head>
       <GlobalStyles />

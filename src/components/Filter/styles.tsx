@@ -65,7 +65,7 @@ export const FilterWrapper = styled.div`
             content: '';
             position: absolute;
             top: 3px;
-            left: 3.5px;
+            left: 3.3px;
             height: 8px;
             width: 8px;
             background-color: white;

@@ -2,6 +2,7 @@
 
 exports[`<Plans /> <Plan /> 1`] = `
 .c0 {
+  padding-top: 30px;
   border-radius: 5px;
   background: white;
   width: 95%;
@@ -13,13 +14,6 @@ exports[`<Plans /> <Plan /> 1`] = `
 
 .c0:nth-child(2) {
   margin: 0 10px;
-}
-
-.c0 > img {
-  display: inline-block;
-  margin-top: 30px;
-  height: 40px;
-  width: 42px;
 }
 
 .c0 h1 {
@@ -131,10 +125,28 @@ exports[`<Plans /> <Plan /> 1`] = `
   <div
     class="c0 plan"
   >
-    <img
-      alt=""
-      src="/img/1.svg"
-    />
+    <span
+      style="box-sizing: border-box; display: inline-block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"
+    >
+      <span
+        style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; max-width: 100%;"
+      >
+        <img
+          alt=""
+          aria-hidden="true"
+          src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2742%27%20height=%2740%27/%3e"
+          style="display: block; max-width: 100%; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px;"
+        />
+      </span>
+      <img
+        alt=""
+        data-nimg="intrinsic"
+        decoding="async"
+        src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+        style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+      />
+      <noscript />
+    </span>
     <div
       class="c1 plan-body"
     >
@@ -179,10 +191,28 @@ exports[`<Plans /> <Plan /> 1`] = `
           <b>
             1 ano de Domínio Grátis.
              
-            <img
-              alt="1 ano de Domínio Grátis."
-              src="/img/i.svg"
-            />
+            <span
+              style="box-sizing: border-box; display: inline-block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"
+            >
+              <span
+                style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; max-width: 100%;"
+              >
+                <img
+                  alt=""
+                  aria-hidden="true"
+                  src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2715.2%27%20height=%2715.2%27/%3e"
+                  style="display: block; max-width: 100%; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px;"
+                />
+              </span>
+              <img
+                alt="1 ano de Domínio Grátis."
+                data-nimg="intrinsic"
+                decoding="async"
+                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+              />
+              <noscript />
+            </span>
           </b>
           <span>
             economize R$ 
@@ -344,7 +374,7 @@ NodeList [
           R$
         </span>
         <strong>
-          3.33
+          3,33
         </strong>
         <span>
           /mês*
@@ -359,10 +389,28 @@ NodeList [
         <b>
           1 ano de Domínio Grátis.
            
-          <img
-            alt="1 ano de Domínio Grátis."
-            src="/img/i.svg"
-          />
+          <span
+            style="box-sizing: border-box; display: inline-block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"
+          >
+            <span
+              style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; max-width: 100%;"
+            >
+              <img
+                alt=""
+                aria-hidden="true"
+                src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2715.2%27%20height=%2715.2%27/%3e"
+                style="display: block; max-width: 100%; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px;"
+              />
+            </span>
+            <img
+              alt="1 ano de Domínio Grátis."
+              data-nimg="intrinsic"
+              decoding="async"
+              src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+              style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+            />
+            <noscript />
+          </span>
         </b>
         <span>
           economize R$ 
@@ -390,10 +438,11 @@ exports[`<Plans /> should render 3 Plans 1`] = `
   -ms-flex-pack: center;
   justify-content: center;
   margin-top: 50px;
-  margin-bottom: 30px;
+  padding-bottom: 30px;
 }
 
 .c6 {
+  padding-top: 30px;
   border-radius: 5px;
   background: white;
   width: 95%;
@@ -407,18 +456,12 @@ exports[`<Plans /> should render 3 Plans 1`] = `
   margin: 0 10px;
 }
 
-.c6 > img {
-  display: inline-block;
-  margin-top: 30px;
-  height: 40px;
-  width: 42px;
-}
-
 .c6 h1 {
   font: Bold 26px/26px Montserrat;
 }
 
 .c9 {
+  padding-top: 30px;
   border-radius: 5px;
   background: white;
   width: 95%;
@@ -430,13 +473,6 @@ exports[`<Plans /> should render 3 Plans 1`] = `
 
 .c9:nth-child(2) {
   margin: 0 10px;
-}
-
-.c9 > img {
-  display: inline-block;
-  margin-top: 30px;
-  height: 40px;
-  width: 42px;
 }
 
 .c9 h1 {
@@ -658,12 +694,7 @@ exports[`<Plans /> should render 3 Plans 1`] = `
   -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
-  min-height: 100%;
-  -webkit-transition: all 500ms ease;
-  transition: all 500ms ease;
-  left: 0px;
-  right: auto;
-  top: auto;
+  margin: 0 0px;
 }
 
 .c2 {
@@ -727,24 +758,45 @@ exports[`<Plans /> should render 3 Plans 1`] = `
         >
           <div
             class="c4 rec rec-slider"
+            style="transition: all 500ms ease; left: 0px;"
           >
             <div
-              tabindex="0"
+              class="rec rec-swipable"
+              style="display: flex; flex-direction: row;"
             >
               <div
-                class="rec rec-swipable-0"
+                class="rec rec-carousel-item rec-carousel-item-0 rec-carousel-item-visible"
               >
                 <div
                   class="c5 rec rec-item-wrapper"
+                  id="0"
                   style="width: 0px; padding: 0px 0px 0px 0px;"
                 >
                   <div
                     class="c6 plan"
                   >
-                    <img
-                      alt=""
-                      src="/img/1.svg"
-                    />
+                    <span
+                      style="box-sizing: border-box; display: inline-block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"
+                    >
+                      <span
+                        style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; max-width: 100%;"
+                      >
+                        <img
+                          alt=""
+                          aria-hidden="true"
+                          src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2742%27%20height=%2740%27/%3e"
+                          style="display: block; max-width: 100%; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px;"
+                        />
+                      </span>
+                      <img
+                        alt=""
+                        data-nimg="intrinsic"
+                        decoding="async"
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                        style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+                      />
+                      <noscript />
+                    </span>
                     <div
                       class="c7 plan-body"
                     >
@@ -789,10 +841,28 @@ exports[`<Plans /> should render 3 Plans 1`] = `
                           <b>
                             1 ano de Domínio Grátis.
                              
-                            <img
-                              alt="1 ano de Domínio Grátis."
-                              src="/img/i.svg"
-                            />
+                            <span
+                              style="box-sizing: border-box; display: inline-block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"
+                            >
+                              <span
+                                style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; max-width: 100%;"
+                              >
+                                <img
+                                  alt=""
+                                  aria-hidden="true"
+                                  src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2715.2%27%20height=%2715.2%27/%3e"
+                                  style="display: block; max-width: 100%; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px;"
+                                />
+                              </span>
+                              <img
+                                alt="1 ano de Domínio Grátis."
+                                data-nimg="intrinsic"
+                                decoding="async"
+                                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                                style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+                              />
+                              <noscript />
+                            </span>
                           </b>
                           <span>
                             economize R$ 
@@ -841,24 +911,39 @@ exports[`<Plans /> should render 3 Plans 1`] = `
                   </div>
                 </div>
               </div>
-            </div>
-            <div
-              tabindex="0"
-            >
               <div
-                class="rec rec-swipable-1"
+                class="rec rec-carousel-item rec-carousel-item-1 rec-carousel-item-hidden rec-carousel-item-next"
               >
                 <div
                   class="c5 rec rec-item-wrapper"
+                  id="1"
                   style="width: 0px; padding: 0px 0px 0px 0px;"
                 >
                   <div
                     class="c9 plan"
                   >
-                    <img
-                      alt=""
-                      src="/img/2.svg"
-                    />
+                    <span
+                      style="box-sizing: border-box; display: inline-block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"
+                    >
+                      <span
+                        style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; max-width: 100%;"
+                      >
+                        <img
+                          alt=""
+                          aria-hidden="true"
+                          src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2742%27%20height=%2740%27/%3e"
+                          style="display: block; max-width: 100%; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px;"
+                        />
+                      </span>
+                      <img
+                        alt=""
+                        data-nimg="intrinsic"
+                        decoding="async"
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                        style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+                      />
+                      <noscript />
+                    </span>
                     <div
                       class="c10 plan-body"
                     >
@@ -903,10 +988,28 @@ exports[`<Plans /> should render 3 Plans 1`] = `
                           <b>
                             1 ano de Domínio Grátis.
                              
-                            <img
-                              alt="1 ano de Domínio Grátis."
-                              src="/img/i.svg"
-                            />
+                            <span
+                              style="box-sizing: border-box; display: inline-block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"
+                            >
+                              <span
+                                style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; max-width: 100%;"
+                              >
+                                <img
+                                  alt=""
+                                  aria-hidden="true"
+                                  src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2715.2%27%20height=%2715.2%27/%3e"
+                                  style="display: block; max-width: 100%; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px;"
+                                />
+                              </span>
+                              <img
+                                alt="1 ano de Domínio Grátis."
+                                data-nimg="intrinsic"
+                                decoding="async"
+                                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                                style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+                              />
+                              <noscript />
+                            </span>
                           </b>
                           <span>
                             economize R$ 
@@ -955,24 +1058,39 @@ exports[`<Plans /> should render 3 Plans 1`] = `
                   </div>
                 </div>
               </div>
-            </div>
-            <div
-              tabindex="0"
-            >
               <div
-                class="rec rec-swipable-2"
+                class="rec rec-carousel-item rec-carousel-item-2 rec-carousel-item-hidden"
               >
                 <div
                   class="c5 rec rec-item-wrapper"
+                  id="2"
                   style="width: 0px; padding: 0px 0px 0px 0px;"
                 >
                   <div
                     class="c6 plan"
                   >
-                    <img
-                      alt=""
-                      src="/img/3.svg"
-                    />
+                    <span
+                      style="box-sizing: border-box; display: inline-block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"
+                    >
+                      <span
+                        style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; max-width: 100%;"
+                      >
+                        <img
+                          alt=""
+                          aria-hidden="true"
+                          src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2742%27%20height=%2740%27/%3e"
+                          style="display: block; max-width: 100%; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px;"
+                        />
+                      </span>
+                      <img
+                        alt=""
+                        data-nimg="intrinsic"
+                        decoding="async"
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                        style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+                      />
+                      <noscript />
+                    </span>
                     <div
                       class="c7 plan-body"
                     >
@@ -1017,10 +1135,28 @@ exports[`<Plans /> should render 3 Plans 1`] = `
                           <b>
                             1 ano de Domínio Grátis.
                              
-                            <img
-                              alt="1 ano de Domínio Grátis."
-                              src="/img/i.svg"
-                            />
+                            <span
+                              style="box-sizing: border-box; display: inline-block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"
+                            >
+                              <span
+                                style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; max-width: 100%;"
+                              >
+                                <img
+                                  alt=""
+                                  aria-hidden="true"
+                                  src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2715.2%27%20height=%2715.2%27/%3e"
+                                  style="display: block; max-width: 100%; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px;"
+                                />
+                              </span>
+                              <img
+                                alt="1 ano de Domínio Grátis."
+                                data-nimg="intrinsic"
+                                decoding="async"
+                                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                                style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+                              />
+                              <noscript />
+                            </span>
                           </b>
                           <span>
                             economize R$ 

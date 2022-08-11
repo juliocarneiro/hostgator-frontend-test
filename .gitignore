@@ -4,6 +4,7 @@
 /node_modules
 /.pnp
 .pnp.js
+.dccache
 
 # testing
 /coverage
@@ -11,9 +12,11 @@
 # next.js
 /.next/
 /out/
+.env
 
 # production
 /build
+/out
 
 # misc
 .DS_Store

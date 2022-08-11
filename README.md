@@ -1,3 +1,7 @@
+[![ci](https://github.com/juliocarneiro/boilerplate-next-ts/actions/workflows/ci.yml/badge.svg)](https://github.com/juliocarneiro/boilerplate-next-ts/actions/workflows/ci.yml) <img src="https://img.shields.io/github/last-commit/juliocarneiro/boilerplate-next-ts/master"> <img src="https://img.shields.io/snyk/vulnerabilities/github/juliocarneiro/boilerplate-next-ts">
+
+This is a [Next.js](https://nextjs.org/) boilerplate with Typescript and Styled-Components.
+
 ## What is inside?
 
 This project uses lot of stuff as:
@@ -10,20 +14,37 @@ This project uses lot of stuff as:
 - [Eslint](https://eslint.org/)
 - [Prettier](https://prettier.io/)
 - [Husky](https://github.com/typicode/husky)
+- [GiHub Actions](https://github.com/features/actions)
+- [Docker](https://www.docker.com/)
+- [Snyk](https://github.com/snyk/snyk)
 
 ## Getting Started
 
-First, run the development server:
+First, install snyk and project dependencies:
 
 ```bash
-npm run dev
-# or
+yarn global add snyk
+```
+
+```bash
+yarn
+```
+
+Now, run the development server:
+
+```bash
 yarn dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+<br />
+#### Or start project with docker image
+
+```bash
+docker-compose up
+```
 
 ## Commands
 
@@ -33,6 +54,10 @@ You can start editing the page by modifying `pages/index.js`. The page auto-upda
 - `lint`: runs the linter in all components and pages
 - `test`: runs jest to test all components and pages
 - `test:watch`: runs jest in watch mode
+- `security`: runs snyk for search vulnerabilities
+- `security-fix`: fix vulnerabilities
+- `protect`: update libs with vulnerabilities
+- `generate`: generate component paste with index, test and styled (ex: `yarn generate Home`)
 
 ## Learn More
 
@@ -43,21 +68,8 @@ To learn more about Next.js, take a look at the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Netlify
+## Deploy on Amazon S3
 
-The easiest way to deploy your Next.js app is to use the [Netlify Platform](https://netlify.com).
+Automatic deploy to Amazon S3 with pipeline in github actions and workflows.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-
-[Example in production](https://zen-fermi-7d2005.netlify.app/).
-
-## Bônus:
-
-- Utilizei react hooks para o gerenciamento de estados.
-- Loader component para carregar os dados do fetch em primeira visita.
-- Não usei Material UI nem bootstrap somente css (flexbox) e uma lib de animações css (Animate.css).
-- Fiz algumas animações onde os valores são trocados e no próprio filtro da página.
-- Utilizei um boilerplate que eu fiz em Typscript + NextJS + Jest/Testing Library focando em performance e PWA.
-- Realizei testes unitarios com o jest e testing-library, queria ter usado o cypress como e2e mas nao tive tempo.
-- Tambem fiz um pre test e lint com o husky e um deploy automatico com o git + netlyfy
-- Não utilizei as imagens do radio button, fiz em css.

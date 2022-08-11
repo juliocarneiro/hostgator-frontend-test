@@ -96,6 +96,8 @@ export const ContainerBox = styled.div`
 export const ImageHeader = styled.div`
   z-index: 9999;
   width: 50%;
+  display: flex;
+  justify-content: center;
   img {
     width: 75%;
     height: 313px;
@@ -108,7 +110,7 @@ export const ImageHeader = styled.div`
       margin-right: 40px;
     }
   }
-  @media (max-width: 1315px) {
+  @media (max-width: 1180px) {
     display: none;
   }
 `

@@ -1,4 +1,7 @@
 {
+  "env": {
+    "jest": true
+  },
   "compilerOptions": {
     "baseUrl": "src",
     "target": "es5",
@@ -13,7 +16,8 @@
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "jsx": "preserve"
+    "jsx": "preserve",
+    "incremental": true
   },
   "exclude": ["node_modules"],
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"]

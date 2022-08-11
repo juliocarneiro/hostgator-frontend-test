@@ -9,7 +9,7 @@ export const Wrapper = styled.div`
   position: relative;
   justify-content: center;
   margin-top: 50px;
-  margin-bottom: 30px;
+  padding-bottom: 30px;
   @media (max-width: 1200px) {
     display: block;
     > div {
@@ -24,17 +24,12 @@ export const Plan = styled.div<Props>`
   &:nth-child(2) {
     margin: 0 10px;
   }
+  padding-top: 30px;
   border-radius: 5px;
   background: white;
   width: 95%;
   text-align: center;
   border: 1px solid #dfecff;
-  > img {
-    display: inline-block;
-    margin-top: 30px;
-    height: 40px;
-    width: 42px;
-  }
   border-top: 10px solid ${({ midPlan }) => (midPlan ? '#ff6a17' : '#F1F6FB ')};
   border-bottom: 5px solid
     ${({ midPlan }) => (midPlan ? '#ff6a17' : '#F1F6FB ')};

@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import PlanBody from './PlanBody'
 import * as S from './styles'
 
@@ -20,9 +21,15 @@ const Plan = ({ productsData, selectedTime }: TPlanProps) => {
 
   return (
     <S.Plan midPlan={name === 'Plano M'} className="plan">
-      {name === 'Plano P' ? <img src="/img/1.svg" alt="" /> : null}
-      {name === 'Plano M' ? <img src="/img/2.svg" alt="" /> : null}
-      {name === 'Plano Turbo' ? <img src="/img/3.svg" alt="" /> : null}
+      {name === 'Plano P' ? (
+        <Image src="/img/1.svg" width={42} height={40} alt="" />
+      ) : null}
+      {name === 'Plano M' ? (
+        <Image src="/img/2.svg" width={42} height={40} alt="" />
+      ) : null}
+      {name === 'Plano Turbo' ? (
+        <Image src="/img/3.svg" width={42} height={40} alt="" />
+      ) : null}
 
       {selectedTime === 'three_years' ? (
         <PlanBody

@@ -127,6 +127,14 @@ exports[`<Header /> should principal text exist 1`] = `
 .c4 {
   z-index: 9999;
   width: 50%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .c4 img {
@@ -168,7 +176,7 @@ exports[`<Header /> should principal text exist 1`] = `
   }
 }
 
-@media (max-width:1315px) {
+@media (max-width:1180px) {
   .c4 {
     display: none;
   }
@@ -176,75 +184,115 @@ exports[`<Header /> should principal text exist 1`] = `
 
 <div>
   <div
-    class="c0"
+    id="header"
   >
     <div
-      class="container"
-    >
-      <img
-        alt="Logo"
-        class="c1"
-        src="/img/hostgator-logo.svg"
-      />
-    </div>
-  </div>
-  <div
-    class="c2"
-  >
-    <div
-      class="c3 container-fluid"
+      class="c0"
     >
       <div
-        class="c4 text-left"
+        class="container"
       >
         <img
           alt="Logo"
-          src="/img/img-header-1.svg"
+          class="c1"
+          src="/img/hostgator-logo.svg"
         />
       </div>
+    </div>
+    <div
+      class="c2"
+    >
       <div
-        class="text-center"
+        class="c3 container-fluid"
       >
         <div
-          class="c5 animate__animated animate__backInDown"
+          class="c4 text-left"
         >
           <span
-            data-testid="principal-text"
+            style="box-sizing: border-box; display: inline-block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"
           >
-            Hospedagem de Sites
+            <span
+              style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; max-width: 100%;"
+            >
+              <img
+                alt=""
+                aria-hidden="true"
+                src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27485%27%20height=%27353%27/%3e"
+                style="display: block; max-width: 100%; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px;"
+              />
+            </span>
+            <img
+              alt="Logo"
+              data-nimg="intrinsic"
+              decoding="async"
+              src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+              style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+            />
+            <noscript />
           </span>
-          <h1>
-            Tenha uma hospedagem de sites estável e evite perder visitantes diariamente
-          </h1>
-          <ul>
-            <li>
-              99,9% de disponibilidade: seu site sempre no ar
-            </li>
-            <li>
-              Suporte 24h, todos os dias
-            </li>
-            <li>
-              Painel de Controle cPanel
-            </li>
-          </ul>
+        </div>
+        <div
+          class="text-center"
+        >
+          <div
+            class="c5 animate__animated animate__backInDown"
+          >
+            <span
+              data-testid="principal-text"
+            >
+              Hospedagem de Sites
+            </span>
+            <h1>
+              Tenha uma hospedagem de sites estável e evite perder visitantes diariamente
+            </h1>
+            <ul>
+              <li>
+                99,9% de disponibilidade: seu site sempre no ar
+              </li>
+              <li>
+                Suporte 24h, todos os dias
+              </li>
+              <li>
+                Painel de Controle cPanel
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div
+          class="c4 text-right"
+        >
+          <span
+            style="box-sizing: border-box; display: inline-block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"
+          >
+            <span
+              style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; max-width: 100%;"
+            >
+              <img
+                alt=""
+                aria-hidden="true"
+                src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27439%27%20height=%27347%27/%3e"
+                style="display: block; max-width: 100%; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px;"
+              />
+            </span>
+            <img
+              alt="Logo"
+              data-nimg="intrinsic"
+              decoding="async"
+              src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+              style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+            />
+            <noscript />
+          </span>
         </div>
       </div>
-      <div
-        class="c4 text-right"
-      >
-        <img
-          alt="Logo"
-          src="/img/img-header-2.svg"
-        />
-      </div>
     </div>
-  </div>
-  <div
-    class="c6"
-  >
-    <a
-      href="#choose"
-    />
+    <div
+      class="c6"
+    >
+      <a
+        href="#choose"
+      />
+    </div>
   </div>
 </div>
 `;
@@ -376,6 +424,14 @@ exports[`<Header /> should render the logo in header 1`] = `
 .c4 {
   z-index: 9999;
   width: 50%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .c4 img {
@@ -417,7 +473,7 @@ exports[`<Header /> should render the logo in header 1`] = `
   }
 }
 
-@media (max-width:1315px) {
+@media (max-width:1180px) {
   .c4 {
     display: none;
   }
@@ -425,75 +481,115 @@ exports[`<Header /> should render the logo in header 1`] = `
 
 <div>
   <div
-    class="c0"
+    id="header"
   >
     <div
-      class="container"
-    >
-      <img
-        alt="Logo"
-        class="c1"
-        src="/img/hostgator-logo.svg"
-      />
-    </div>
-  </div>
-  <div
-    class="c2"
-  >
-    <div
-      class="c3 container-fluid"
+      class="c0"
     >
       <div
-        class="c4 text-left"
+        class="container"
       >
         <img
           alt="Logo"
-          src="/img/img-header-1.svg"
+          class="c1"
+          src="/img/hostgator-logo.svg"
         />
       </div>
+    </div>
+    <div
+      class="c2"
+    >
       <div
-        class="text-center"
+        class="c3 container-fluid"
       >
         <div
-          class="c5 animate__animated animate__backInDown"
+          class="c4 text-left"
         >
           <span
-            data-testid="principal-text"
+            style="box-sizing: border-box; display: inline-block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"
           >
-            Hospedagem de Sites
+            <span
+              style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; max-width: 100%;"
+            >
+              <img
+                alt=""
+                aria-hidden="true"
+                src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27485%27%20height=%27353%27/%3e"
+                style="display: block; max-width: 100%; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px;"
+              />
+            </span>
+            <img
+              alt="Logo"
+              data-nimg="intrinsic"
+              decoding="async"
+              src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+              style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+            />
+            <noscript />
           </span>
-          <h1>
-            Tenha uma hospedagem de sites estável e evite perder visitantes diariamente
-          </h1>
-          <ul>
-            <li>
-              99,9% de disponibilidade: seu site sempre no ar
-            </li>
-            <li>
-              Suporte 24h, todos os dias
-            </li>
-            <li>
-              Painel de Controle cPanel
-            </li>
-          </ul>
+        </div>
+        <div
+          class="text-center"
+        >
+          <div
+            class="c5 animate__animated animate__backInDown"
+          >
+            <span
+              data-testid="principal-text"
+            >
+              Hospedagem de Sites
+            </span>
+            <h1>
+              Tenha uma hospedagem de sites estável e evite perder visitantes diariamente
+            </h1>
+            <ul>
+              <li>
+                99,9% de disponibilidade: seu site sempre no ar
+              </li>
+              <li>
+                Suporte 24h, todos os dias
+              </li>
+              <li>
+                Painel de Controle cPanel
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div
+          class="c4 text-right"
+        >
+          <span
+            style="box-sizing: border-box; display: inline-block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"
+          >
+            <span
+              style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; max-width: 100%;"
+            >
+              <img
+                alt=""
+                aria-hidden="true"
+                src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27439%27%20height=%27347%27/%3e"
+                style="display: block; max-width: 100%; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px;"
+              />
+            </span>
+            <img
+              alt="Logo"
+              data-nimg="intrinsic"
+              decoding="async"
+              src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+              style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+            />
+            <noscript />
+          </span>
         </div>
       </div>
-      <div
-        class="c4 text-right"
-      >
-        <img
-          alt="Logo"
-          src="/img/img-header-2.svg"
-        />
-      </div>
     </div>
-  </div>
-  <div
-    class="c6"
-  >
-    <a
-      href="#choose"
-    />
+    <div
+      class="c6"
+    >
+      <a
+        href="#choose"
+      />
+    </div>
   </div>
 </div>
 `;
