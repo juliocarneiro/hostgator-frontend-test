@@ -1,5 +1,5 @@
-import Main from 'components/Main'
+import HomeHandler from 'handlers/HomeHandler'
 
 export default function Home() {
-  return <Main />
+  return <HomeHandler />
 }

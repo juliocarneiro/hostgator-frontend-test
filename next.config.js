@@ -1,14 +1,22 @@
 // eslint-disable-next-line @typescript-eslint/no-var-requires
 const withPWA = require('next-pwa')
-//const isProd = process.env.NODE_ENV === 'production'
+// eslint-disable-next-line @typescript-eslint/no-var-requires
+const runtimeCaching = require('next-pwa/cache')
 
-module.exports = withPWA({
+const settings = {
+  reactStrictMode: true,
   pwa: {
     dest: 'public',
-    disable: true
-    //disable: !isProd
+    disable: process.env.NODE_ENV === 'development',
+    register: true,
+    skipWaiting: true,
+    runtimeCaching,
+    buildExcludes: [/middleware-manifest.json$/]
   },
   images: {
     domains: ['localhost', 'res.cloudinary.com']
   }
-})
+}
+
+module.exports =
+  process.env.NODE_ENV === 'development' ? settings : withPWA(settings)

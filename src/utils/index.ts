@@ -1,5 +1,11 @@
 import fetch from 'isomorphic-fetch'
-import { TMainProducts } from '../components/Main/TMainProps'
+import { TMainProducts } from '../handlers/HomeHandler/TMainProps'
+
+export const planTypes = {
+  PLANP: 'Plano P',
+  PLANM: 'Plano M',
+  PLANTURBO: 'Plano Turbo'
+}
 
 export const getProducts = async () => {
   const responseData = await fetch(
@@ -15,7 +21,6 @@ export const getProducts = async () => {
       cycle: [product.cycle]
     })
   )
-
   return { products }
 }
 

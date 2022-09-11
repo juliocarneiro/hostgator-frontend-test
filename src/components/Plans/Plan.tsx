@@ -1,39 +1,41 @@
 import Image from 'next/image'
 import PlanBody from './PlanBody'
+import { planTypes } from 'utils'
 import * as S from './styles'
 
 import { TPlanProps } from './TPlansProps'
 
 const Plan = ({ productsData, selectedTime }: TPlanProps) => {
   const { name, cycle, id } = productsData
-
   const cycleData = Object.assign({}, cycle[0])
 
   const priceTriennially = cycleData.triennially.priceOrder
   const priceAnnually = cycleData.annually.priceOrder
   const priceMonthly = cycleData.monthly.priceOrder
-
   const monthTriennially = cycleData.triennially.months
   const monthAnnually = cycleData.annually.months
   const monthMonthly = cycleData.monthly.months
-
   const discountPercent = 40
 
-  return (
-    <S.Plan midPlan={name === 'Plano M'} className="plan">
-      {name === 'Plano P' ? (
-        <Image src="/img/1.svg" width={42} height={40} alt="" />
-      ) : null}
-      {name === 'Plano M' ? (
-        <Image src="/img/2.svg" width={42} height={40} alt="" />
-      ) : null}
-      {name === 'Plano Turbo' ? (
-        <Image src="/img/3.svg" width={42} height={40} alt="" />
-      ) : null}
+  const renderImagePlan = () => {
+    switch (name) {
+      case planTypes.PLANP:
+        return <Image src="/img/1.svg" width={42} height={40} alt="" />
+      case planTypes.PLANM:
+        return <Image src="/img/2.svg" width={42} height={40} alt="" />
+      case planTypes.PLANTURBO:
+        return <Image src="/img/3.svg" width={42} height={40} alt="" />
+      default:
+        throw new Error(`Error: Got ${name} when trying to read a value `)
+    }
+  }
 
+  return (
+    <S.Plan midPlan={name === planTypes.PLANM} className="plan">
+      {renderImagePlan()}
       {selectedTime === 'three_years' ? (
         <PlanBody
-          midPlan={name === 'Plano M'}
+          midPlan={name === planTypes.PLANM}
           price={priceTriennially}
           percent={discountPercent}
           month={monthTriennially}
@@ -45,7 +47,7 @@ const Plan = ({ productsData, selectedTime }: TPlanProps) => {
       ) : null}
       {selectedTime === 'year' ? (
         <PlanBody
-          midPlan={name === 'Plano M'}
+          midPlan={name === planTypes.PLANM}
           price={priceAnnually}
           percent={discountPercent}
           month={monthAnnually}
@@ -57,7 +59,7 @@ const Plan = ({ productsData, selectedTime }: TPlanProps) => {
       ) : null}
       {selectedTime === 'month' ? (
         <PlanBody
-          midPlan={name === 'Plano M'}
+          midPlan={name === planTypes.PLANM}
           price={priceMonthly}
           percent={discountPercent}
           promoCode="PROMOHG40"
@@ -69,9 +71,9 @@ const Plan = ({ productsData, selectedTime }: TPlanProps) => {
       ) : null}
 
       <S.PlanFooter className="text-left" data-testid="plan-footer">
-        <p>{name === 'Plano P' ? 'Para 1 site' : 'Sites Ilimitados'}</p>
+        <p>{name === planTypes.PLANP ? 'Para 1 site' : 'Sites Ilimitados'}</p>
         <p>
-          {name === 'Plano Turbo' ? <b>150 GB </b> : <b>100 GB </b>}
+          {name === planTypes.PLANTURBO ? <b>150 GB </b> : <b>100 GB </b>}
           de Armazenamento
         </p>
         <p>

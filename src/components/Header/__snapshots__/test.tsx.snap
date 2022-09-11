@@ -137,18 +137,18 @@ exports[`<Header /> should principal text exist 1`] = `
   justify-content: center;
 }
 
-.c4 img {
+.c4 span {
   width: 75%;
   height: 313px;
   position: relative;
   top: 85px;
 }
 
-.c4 img:first-child {
+.c4 span:first-child {
   margin-left: 40px;
 }
 
-.c4 img:last-child {
+.c4 span:last-child {
   margin-right: 40px;
 }
 
@@ -434,18 +434,18 @@ exports[`<Header /> should render the logo in header 1`] = `
   justify-content: center;
 }
 
-.c4 img {
+.c4 span {
   width: 75%;
   height: 313px;
   position: relative;
   top: 85px;
 }
 
-.c4 img:first-child {
+.c4 span:first-child {
   margin-left: 40px;
 }
 
-.c4 img:last-child {
+.c4 span:last-child {
   margin-right: 40px;
 }
 

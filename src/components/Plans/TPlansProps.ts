@@ -1,4 +1,7 @@
-import { TMainProducts, TMainSelectedTime } from '../Main/TMainProps'
+import {
+  TMainProducts,
+  TMainSelectedTime
+} from 'handlers/HomeHandler/TMainProps'
 
 export interface TPlansProps {
   selectedTime: TMainSelectedTime

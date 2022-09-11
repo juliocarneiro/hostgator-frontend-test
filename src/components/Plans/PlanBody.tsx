@@ -1,6 +1,5 @@
 import * as S from './styles'
-import { percentage, currency, discount } from 'utils'
-
+import { percentage, currency, discount, planTypes } from 'utils'
 import { TPlanBodyProps } from './TPlansProps'
 import Image from 'next/image'
 
@@ -25,9 +24,9 @@ const PlanBody = ({
         <h1>{name}</h1>
       </div>
       <div
-        className={`animate__animated animate__flipInX ${
+        className={`animate__animated animate__flipInX animate__fast ${
           midPlan ? 'animate__delay-1s' : ''
-        } ${name === 'Plano Turbo' ? 'animate__delay-2s' : ''}`}
+        } ${name === planTypes.PLANTURBO ? 'animate__delay-2s' : ''}`}
       >
         <p>
           <span>R$ {currency.format(price)}</span>{' '}
