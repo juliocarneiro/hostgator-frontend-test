@@ -11,6 +11,7 @@ This project uses lot of stuff as:
 - [Styled Components](https://styled-components.com/)
 - [Jest](https://jestjs.io/)
 - [React Testing Library](https://testing-library.com/docs/react-testing-library/intro)
+- [React-Query](https://react-query-v3.tanstack.com)
 - [Eslint](https://eslint.org/)
 - [Prettier](https://prettier.io/)
 - [Husky](https://github.com/typicode/husky)
@@ -79,7 +80,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 ## Bônus:
 
 - React 18 e Next 12.
-- Utilizei react hooks para o gerenciamento de estados.
+- Utilizei react hooks/ react query para o gerenciamento de estados.
 - Loader component para carregar os dados do fetch em primeira visita junto ao nprogress loader para trocar de pagina.
 - Não usei Material UI nem bootstrap somente css (flexbox) e uma lib de animações css (Animate.css).
 - Fiz algumas animações onde os valores são trocados e no próprio filtro da página.
