@@ -1,6 +1,7 @@
 import * as S from './styles'
 import Plan from './Plan'
 import { TPlansProps } from './TPlansProps'
+import { memo } from 'react'
 
 const Plans = ({ selectedTime, productsData }: TPlansProps) => {
   return (
@@ -12,4 +13,4 @@ const Plans = ({ selectedTime, productsData }: TPlansProps) => {
   )
 }
 
-export default Plans
+export default memo(Plans)

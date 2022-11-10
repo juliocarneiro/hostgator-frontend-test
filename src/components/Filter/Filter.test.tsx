@@ -38,14 +38,12 @@ describe('<Filter />', () => {
     const input = getByTestId('choice-text')
 
     expect(input).toHaveTextContent('Quero pagar a cada:')
-    expect(container).toMatchSnapshot()
   })
 
   test('Three input elements exist', () => {
     const { container } = setup()
     const inputs = container.querySelectorAll('input[value][type="radio"]')
     expect(inputs.length).toBe(3)
-    expect(container).toMatchSnapshot()
   })
 
   test('Input THREE YEARS to be visible', () => {

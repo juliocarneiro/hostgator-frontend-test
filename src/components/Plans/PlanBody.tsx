@@ -2,6 +2,7 @@ import * as S from './styles'
 import { percentage, currency, discount, planTypes } from 'utils'
 import { TPlanBodyProps } from './TPlansProps'
 import Image from 'next/image'
+import img1 from '../../../public/img/i.svg'
 
 const PlanBody = ({
   midPlan,
@@ -48,7 +49,7 @@ const PlanBody = ({
           <b>
             1 ano de Domínio Grátis.{' '}
             <Image
-              src="/img/i.svg"
+              src={img1}
               width={15.2}
               height={15.2}
               alt="1 ano de Domínio Grátis."

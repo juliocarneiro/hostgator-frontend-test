@@ -47,7 +47,6 @@ describe('<Plans />', () => {
       />
     )
     expect(container.querySelectorAll('.plan-body').length).toBe(3)
-    expect(container).toMatchSnapshot()
   })
   test('<Plan />', () => {
     const { container, getByTestId } = render(
@@ -70,7 +69,6 @@ describe('<Plans />', () => {
     expect(container.querySelector('img')).toBeVisible()
     expect(container.querySelectorAll('.plan >div>div>h1').length).toBe(1)
     expect(planFooter).toHaveTextContent('Contas de E-mail')
-    expect(container).toMatchSnapshot()
   })
   test('<PlanBody />', () => {
     const { container } = render(
@@ -81,13 +79,12 @@ describe('<Plans />', () => {
         month={12}
         selectedTime="annually"
         promoCode="PROMOHG40"
-        id={2}
+        id={`2`}
         name={'Plan M'}
       />
     )
     expect(container.querySelectorAll('.plan-body > div > p').length).toBe(2)
     expect(container.querySelectorAll('.plan-body > div > a').length).toBe(1)
     expect(container.querySelectorAll('.plan-body > div > div').length).toBe(1)
-    expect(container.querySelectorAll('.plan-body')).toMatchSnapshot()
   })
 })

@@ -14,6 +14,7 @@ This project uses lot of stuff as:
 - [React-Query](https://react-query-v3.tanstack.com)
 - [Eslint](https://eslint.org/)
 - [Prettier](https://prettier.io/)
+- [Storybook](https://storybook.js.org)
 - [Husky](https://github.com/typicode/husky)
 - [GiHub Actions](https://github.com/features/actions)
 - [Docker](https://www.docker.com/)
@@ -59,6 +60,7 @@ docker-compose up
 - `security-fix`: fix vulnerabilities
 - `protect`: update libs with vulnerabilities
 - `generate`: generate component paste with index, test and styled (ex: `yarn generate Home`)
+- `storybook`: Initialize and watch Storybook
 
 ## Learn More
 
@@ -80,11 +82,12 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 ## Bônus:
 
 - React 18 e Next 12.
+- Storybook dos componentes.
 - Utilizei react hooks/ react query para o gerenciamento de estados.
 - Loader component para carregar os dados do fetch em primeira visita junto ao nprogress loader para trocar de pagina.
 - Não usei Material UI nem bootstrap somente css (flexbox) e uma lib de animações css (Animate.css).
 - Fiz algumas animações onde os valores são trocados e no próprio filtro da página.
-- Utilizei um boilerplate que eu fiz em Typscript + NextJS + Jest/Testing Library focando em performance e PWA.
+- Utilizei um boilerplate que eu fiz em Typscript + NextJS + Jest/Testing Library focando em performance e seguranca com todas as libs atualizadas.
 - Realizei testes unitarios com o jest e testing-library, queria ter usado o cypress como e2e mas nao tive tempo.
 - Tambem fiz um pre test e lint com o husky e um deploy automatico com o git + netlyfy
 - Não utilizei as imagens do radio button, fiz em css.

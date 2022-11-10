@@ -2,6 +2,9 @@ import Image from 'next/image'
 import PlanBody from './PlanBody'
 import { planTypes } from 'utils'
 import * as S from './styles'
+import img1 from '../../../public/img/1.svg'
+import img2 from '../../../public/img/2.svg'
+import img3 from '../../../public/img/3.svg'
 
 import { TPlanProps } from './TPlansProps'
 
@@ -20,11 +23,11 @@ const Plan = ({ productsData, selectedTime }: TPlanProps) => {
   const renderImagePlan = () => {
     switch (name) {
       case planTypes.PLANP:
-        return <Image src="/img/1.svg" width={42} height={40} alt="" />
+        return <Image src={img1} width={42} height={40} alt={planTypes.PLANP} />
       case planTypes.PLANM:
-        return <Image src="/img/2.svg" width={42} height={40} alt="" />
+        return <Image src={img2} width={42} height={40} alt={planTypes.PLANM} />
       case planTypes.PLANTURBO:
-        return <Image src="/img/3.svg" width={42} height={40} alt="" />
+        return <Image src={img3} width={42} height={40} alt={planTypes.PLANP} />
       default:
         throw new Error(`Error: Got ${name} when trying to read a value `)
     }

@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react'
-import { dehydrate, QueryClient } from '@tanstack/react-query'
-import getProducts, { planTypes } from 'utils'
+import { planTypes } from 'utils'
 import { useProduct } from 'hooks/api/products'
 
 import Header from 'components/Header'
@@ -43,16 +42,6 @@ const HomeHandler = () => {
       <Plans selectedTime={selectedTime} productsData={productsData} />
     </div>
   )
-}
-
-export const getServerSideProps = async () => {
-  const queryClient = new QueryClient()
-  await queryClient.fetchQuery(['get'], () => getProducts())
-  return {
-    props: {
-      dehydratedState: dehydrate(queryClient)
-    }
-  }
 }
 
 export default HomeHandler

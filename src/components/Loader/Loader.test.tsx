@@ -8,6 +8,5 @@ describe('<Loader />', () => {
 
     const loading = getByTestId('loader')
     expect(loading).toBeInTheDocument()
-    expect(loading).toMatchSnapshot()
   })
 })
