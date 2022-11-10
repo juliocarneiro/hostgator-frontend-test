@@ -1,3 +1,4 @@
+import { COLORS } from 'config'
 import { createGlobalStyle } from 'styled-components'
 
 const GlobalStyles = createGlobalStyle`
@@ -9,8 +10,8 @@ const GlobalStyles = createGlobalStyle`
   }
   html {
     font-size: 1em;
-    background: #F1F6FB 0% 0% no-repeat padding-box;
-    color: #1D5297;
+    background: ${COLORS.aliceBlue} 0% 0% no-repeat padding-box;
+    color: ${COLORS.cyanCobaltBlue};
   }
   html, body, #__next {
     height: 100%;
@@ -89,12 +90,12 @@ const GlobalStyles = createGlobalStyle`
     }
       }
       .button-prev{
-        background:#4480c5;
+        background: ${COLORS.cyanBlueAzure};
         left:15px;
         background:url('/img/button-prev.svg')
       }
       .button-next{
-        background:#4480c5;
+        background: ${COLORS.cyanBlueAzure};
         right:15px;
         background:url('/img/button-next.svg')
       }

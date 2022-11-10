@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { COLORS } from 'config'
 
 export const LogoWrapper = styled.div`
   background: white;
@@ -7,7 +8,7 @@ export const LogoWrapper = styled.div`
 export const PresentationLine = styled.div`
   height: 34px;
   width: 100%;
-  background: #e0efe3;
+  background: ${COLORS.chineseWhite};
   position: relative;
   margin-bottom: 50px;
   z-index: 0;
@@ -35,7 +36,7 @@ export const PresentationLine = styled.div`
   }
 `
 export const PresentationWrapper = styled.div`
-  background: #1d5297;
+  background: ${COLORS.cyanCobaltBlue};
   width: 100%;
   color: white;
 `
@@ -78,7 +79,7 @@ export const PresentationTextBox = styled.div`
     li {
       font: Regular 16px/22px Montserrat;
       letter-spacing: 0px;
-      color: #b9d0ef;
+      color: ${COLORS.beauBlue};
       padding: 10px 20px 10px 20px;
       background: url('/img/icon-check.svg') center left no-repeat;
     }

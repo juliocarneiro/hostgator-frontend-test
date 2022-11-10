@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { COLORS } from 'config'
 
 type Props = {
   midPlan: boolean
@@ -29,10 +30,11 @@ export const Plan = styled.div<Props>`
   background: white;
   width: 95%;
   text-align: center;
-  border: 1px solid #dfecff;
-  border-top: 10px solid ${({ midPlan }) => (midPlan ? '#ff6a17' : '#F1F6FB ')};
+  border: 1px solid ${COLORS.lavender};
+  border-top: 10px solid
+    ${({ midPlan }) => (midPlan ? COLORS.orangeRed : COLORS.aliceBlue)};
   border-bottom: 5px solid
-    ${({ midPlan }) => (midPlan ? '#ff6a17' : '#F1F6FB ')};
+    ${({ midPlan }) => (midPlan ? COLORS.orangeRed : COLORS.aliceBlue)};
   h1 {
     font: Bold 26px/26px Montserrat;
   }
@@ -41,15 +43,15 @@ export const Plan = styled.div<Props>`
 export const PlanBody = styled.div<Props>`
   > div:first-child {
     padding: 10px 10px 30px 10px;
-    border-bottom: 1px solid #dfecff;
+    border-bottom: 1px solid ${COLORS.lavender};
   }
   > div:not(:first-child) {
     padding: 30px 20px;
-    border-bottom: 1px solid #dfecff;
+    border-bottom: 1px solid ${COLORS.lavender};
   }
   > div p:nth-child(1) {
     font-size: 14px;
-    color: #333333;
+    color: ${COLORS.darkCharcoal};
     line-height: 1.5em;
     margin-bottom: 5px;
     span {
@@ -73,8 +75,9 @@ export const PlanBody = styled.div<Props>`
     display: block;
     margin: 30px 0;
     padding: 15px;
-    background: #4480c5 0% 0% no-repeat padding-box;
-    background: ${({ midPlan }) => (midPlan ? '#ff6a17' : '#4480c5 ')};
+    background: ${COLORS.cyanBlueAzure} 0% 0% no-repeat padding-box;
+    background: ${({ midPlan }) =>
+      midPlan ? COLORS.orangeRed : COLORS.cyanBlueAzure};
     border-radius: 26px;
     color: white;
     text-decoration: none;
@@ -91,9 +94,9 @@ export const PlanBody = styled.div<Props>`
     span {
       font-size: 14px;
       strong {
-        background: #51c99c 0% 0% no-repeat padding-box;
+        background: ${COLORS.oceanGreen} 0% 0% no-repeat padding-box;
         border-radius: 224px;
-        color: #ffffff;
+        color: ${COLORS.white};
         text-transform: uppercase;
         padding: 5px 10px;
         margin-left: 5px;
@@ -103,9 +106,9 @@ export const PlanBody = styled.div<Props>`
 `
 export const PlanFooter = styled.div`
   padding: 30px 20px;
-  border-bottom: 1px solid #dfecff;
+  border-bottom: 1px solid ${COLORS.lavender};
   p {
-    color: #333333;
+    color: ${COLORS.darkCharcoal};
     margin: 10px 0;
     &:last-child {
       margin: 10px 0 0 0;
@@ -113,7 +116,7 @@ export const PlanFooter = styled.div`
     &:first-child,
     &:nth-child(3) {
       display: inline;
-      border-bottom: 1px dashed #d1deee;
+      border-bottom: 1px dashed ${COLORS.azureishWhite};
     }
   }
 `

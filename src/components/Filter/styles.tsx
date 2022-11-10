@@ -1,14 +1,15 @@
 import styled from 'styled-components'
+import { COLORS } from 'config'
 
 export const Wrapper = styled.div`
   font: Regular 14px/26px Montserrat;
   letter-spacing: 0px;
-  color: #1d5297;
+  color: ${COLORS.cyanCobaltBlue};
 `
 export const FilterWrapper = styled.div`
-  background: #ffffff 0% 0% no-repeat padding-box;
-  box-shadow: 0px 2px 4px #4480c570;
-  border: 1px solid #4480c5;
+  background: ${COLORS.white} 0% 0% no-repeat padding-box;
+  box-shadow: 0px 2px 4px ${COLORS.cyanBlueAzure};
+  border: 1px solid ${COLORS.cyanBlueAzure};
   border-radius: 50px;
   display: inline-block;
   margin-top: 20px;
@@ -46,21 +47,21 @@ export const FilterWrapper = styled.div`
         left: 13px;
         height: 18px;
         width: 18px;
-        background-color: white;
+        background-color: ${COLORS.white};
         border-radius: 50%;
-        border: 2px solid #9eb8dc;
+        border: 2px solid ${COLORS.paleCerulean};
         @media (max-width: 768px) {
           top: 8px;
         }
       }
 
       &.selected {
-        background: #4480c5 0% 0% no-repeat padding-box;
-        color: white;
+        background: ${COLORS.cyanBlueAzure} 0% 0% no-repeat padding-box;
+        color: ${COLORS.white};
         font-weight: bold;
         .radiobtn {
-          border: 2px solid white;
-          background: #4480c5;
+          border: 2px solid ${COLORS.white};
+          background: ${COLORS.cyanBlueAzure};
           &:after {
             content: '';
             position: absolute;
@@ -68,7 +69,7 @@ export const FilterWrapper = styled.div`
             left: 3.3px;
             height: 8px;
             width: 8px;
-            background-color: white;
+            background-color: ${COLORS.white};
             border-radius: 50%;
           }
         }

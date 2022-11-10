@@ -45,7 +45,7 @@ export default {
         }
       ]
     },
-    selectedTime: { control: 'text', defaultValue: 'year' }
+    selectedTime: { control: 'text', defaultValue: 'month' }
   }
 } as ComponentMeta<typeof Plans>
 
